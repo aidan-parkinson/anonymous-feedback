@@ -32,6 +32,7 @@ class Form extends React.Component {
     //MQTT client is passed on
     const { mqtt } = this.props;
     mqtt.publish(`anonymous-feedback/${thisMacaddress}/Submit`, {satisfactionRating: this.state.rating, description: this.state.description});
+    this.setState({ rating: null, description: null});
   };
 
   render() {
