@@ -7,16 +7,16 @@ import { Connector } from 'mqtt-react';
 
 var fs = require('fs');
 
-var caFile = fs.readFile('/etc/ca-certificates/learning-iot-ca.crt', function (err, data) {
-  if (err) throw err;
-  console.log(data);
-});
+// var caFile = fs.readFile('/etc/ca-certificates/learning-iot-ca.crt', function (err, data) {
+//   if (err) throw err;
+//   console.log(data);
+// });
 
 var options = {
   // port: 8883,
   // host: '35.176.252.212',
   // key: KEY,
-  ca: caFile,
+  // ca: caFile,
   rejectUnauthorized: false,
   // The CA list will be used to determine if server is authorized
   // protocol: 'mqtts'

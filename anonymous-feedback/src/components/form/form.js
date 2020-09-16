@@ -31,7 +31,7 @@ class Form extends React.Component {
     //e.preventDefault();
     //MQTT client is passed on
     const { mqtt } = this.props;
-    mqtt.publish(`anonymous-feedback/${thisMacaddress}/json`, {satisfactionRating: this.state.rating, description: this.state.description});
+    mqtt.publish(`anonymous-feedback/${thisMacaddress}/json`, {likert_score: this.state.rating, description: this.state.description});
     this.setState({ rating: null, description: null});
   };
 
@@ -39,7 +39,6 @@ class Form extends React.Component {
    return (
       <div>
         <div className="form-input">
-          <div className="label-unsatisfied">Unsatisfied</div>
           <div className="form-input-rating">
             <StarRating
               numberOfStars="5"
@@ -47,7 +46,6 @@ class Form extends React.Component {
               onClick={this.setRating}
             />
           </div>
-          <div className="label-satisfied">Satisfied</div>
           <div className="actions">
             <button onClick={this.broadcastFeedback}>
               Submit
