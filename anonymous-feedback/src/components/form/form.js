@@ -31,7 +31,7 @@ class Form extends React.Component {
     //e.preventDefault();
     //MQTT client is passed on
     const { mqtt } = this.props;
-    mqtt.publish(`anonymous-feedback/${thisMacaddress}/Submit`, {satisfactionRating: this.state.rating, description: this.state.description});
+    mqtt.publish(`anonymous-feedback/${thisMacaddress}/json`, {satisfactionRating: this.state.rating, description: this.state.description});
     this.setState({ rating: null, description: null});
   };
 
@@ -66,5 +66,5 @@ class Form extends React.Component {
 }
 
 export default subscribe({
-  topic: `anonymous-feedback/${thisMacaddress}/Submit`
+  topic: `anonymous-feedback/${thisMacaddress}/json`
 })(Form)

@@ -5,9 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Connector } from 'mqtt-react';
 
-const fs = require('fs');
+var fs = require('fs');
 
-var caFile = fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt');
+var caFile = fs.readFile('/etc/ca-certificates/learning-iot-ca.crt', function (err, data) {
+  if (err) throw err;
+  console.log(data);
+});
 
 var options = {
   // port: 8883,
