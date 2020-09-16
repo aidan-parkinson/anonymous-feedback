@@ -10,6 +10,8 @@
 
 # production
 /build
+/aws
+awscliv2.zip
 
 # misc
 .DS_Store
