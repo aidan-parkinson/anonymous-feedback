@@ -1,7 +1,6 @@
 {
   "name": "anonymous-feedback",
-  "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -9,7 +8,8 @@
     "macaddress": "^0.5.1",
     "mqtt-react": "0.0.3",
     "object.omit": "^3.0.0",
-    "react": "^16.13.1",
+    "react": "^15.6.2",
+    "react-app-rewired": "^2.1.6",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "shebang-loader": "0.0.1"
@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "a client for submitting anonymous feedback to a server via mqtts",
+  "main": "index.js",
+  "repository": "https://github.com/aidan-parkinson/anonymous-feedback",
+  "author": "aidan parkinson"
 }

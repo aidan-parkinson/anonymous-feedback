@@ -16,5 +16,11 @@ module.exports = function override(config, env) {
 
   config.target = 'node';
 
+  config.externals = [
+    /node_modules/,
+    'bufferutil',
+    'utf-8-validate'
+  ]
+
   return config;
 }
