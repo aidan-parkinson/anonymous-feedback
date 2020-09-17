@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Connector } from 'mqtt-react';
 
+var mqtt = require('mqtt');
 const fs = require('fs');
 
 var caFile = fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt');
@@ -19,11 +19,15 @@ var options = {
   // protocol: 'mqtts'
 }
 
+var client  = mqtt.connect("mqtts://35.176.252.212:8883", options);
+console.log("connected flag  " + client.connected);
+client.on("connect",function(){
+console.log("connected  "+ client.connected);
+});
+
 ReactDOM.render(
   <React.StrictMode>
-    <Connector mqttProps={"mqtts://35.176.252.212:8883", options}>
-      <App />
-    </Connector>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

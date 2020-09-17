@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { subscribe } from 'mqtt-react';
 import './form.css';
 
 import StarRating from '../affective-response/star-rating';
@@ -7,6 +6,8 @@ import StarRating from '../affective-response/star-rating';
 var macaddress = require('macaddress');
 
 var thisMacaddress = macaddress.one
+
+var mqtt = require('mqtt');
 
 class Form extends React.Component {
   constructor(props) {
@@ -28,9 +29,6 @@ class Form extends React.Component {
   };
 
   broadcastFeedback = () => {
-    //e.preventDefault();
-    //MQTT client is passed on
-    const { mqtt } = this.props;
     mqtt.publish(`anonymous-feedback/${thisMacaddress}/json`, {likert_score: this.state.rating, description: this.state.description});
     this.setState({ rating: null, description: null});
   };
@@ -63,6 +61,4 @@ class Form extends React.Component {
   }
 }
 
-export default subscribe({
-  topic: `anonymous-feedback/${thisMacaddress}/json`
-})(Form)
+export default Form;
