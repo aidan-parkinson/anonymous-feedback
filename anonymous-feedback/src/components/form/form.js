@@ -2,7 +2,7 @@ import React from 'react';
 
 import './form.css';
 import StarRating from '../affective-response/star-rating';
-import mqtt from '../../hooks/useMqtt';
+import mqtt from 'mqtt';
 
 class Form extends React.Component {
   constructor(props) {

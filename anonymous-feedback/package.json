@@ -40,7 +40,5 @@
   "main": "index.js",
   "repository": "https://github.com/aidan-parkinson/anonymous-feedback",
   "author": "aidan parkinson",
-  "devDependencies": {
-    "webpack-cli": "^3.3.12"
-  }
+  "devDependencies": {}
 }
