@@ -2,7 +2,6 @@ import React from 'react';
 
 import './form.css';
 import StarRating from '../affective-response/star-rating';
-import mqtt from 'mqtt';
 
 class Form extends React.Component {
   constructor(props) {
@@ -34,14 +33,8 @@ class Form extends React.Component {
     )};
 
   connect = props => {
-    useMqtt(() => {
-      this.client  = this.mqtt.connect("mqtts://35.176.252.212:8883", this.options);
-      console.log("connected flag  " + this.client.connected);
-
-      this.client.on("connect",function(){
-      console.log("connected  "+ this.client.connected);
-      });
-    });
+    this.client  = this.mqtt.connect("mqtts://35.176.252.212:8883", this.options);
+    console.log("connected flag  " + this.client.connected);
   };
 
   handleChange = ev => {
