@@ -3,6 +3,19 @@ import React from 'react';
 import './form.css';
 import StarRating from '../affective-response/star-rating';
 
+var macaddress = require('macaddress');
+
+const thisMacaddress = macaddress;
+
+const fs = require('fs');
+const https = require('https');
+const axios = require('axios').default;
+// axios.<method> will now provide autocomplete and parameter typings
+
+const httpsAgent = new https.Agent({
+  ca: fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt'),
+});
+
 class Form extends React.Component {
   constructor(props) {
     super(props);
@@ -11,23 +24,6 @@ class Form extends React.Component {
       description: null,
     };
   }
-
-  componentDidMount(){
-
-    var macaddress = require('macaddress');
-
-    const thisMacaddress = macaddress;
-
-    const fs = require('fs');
-    const https = require('https');
-    const axios = require('axios');
-
-    // ...
-    const httpsAgent = new https.Agent({
-      ca: fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt'),
-    });
-
-  };
 
   handleChange = ev => {
     this.setState({
@@ -40,17 +36,19 @@ class Form extends React.Component {
   };
 
   broadcastFeedback = () => {
-    axios({
-      method: 'post',
-      url: 'https://xx.xxx.xxx.xxx:443',
-      data: {
+    axios.post(
+      'https://xx.xxx.xxx.xxx:443',
+      {
         mac_address: thisMacaddress,
         likert_score: this.state.rating,
         description: this.state.description
       },
-      config: httpsAgent
-    });
-    this.setState({ rating: null, description: null});
+      httpsAgent
+    ).then((response) => {
+      console.log(response);
+    }, (error) => {
+      console.log(error);
+    }).then(this.setState({ rating: null, description: null}))
   };
 
   render() {
