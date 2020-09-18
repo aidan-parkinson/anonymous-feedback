@@ -13,28 +13,20 @@ class Form extends React.Component {
   }
 
   componentDidMount(){
-    this.macaddress = require('macaddress').then(
-      this.fs = require('fs')
-    ).then(
-      this.thisMacaddress = this.macaddress
-    ).then(
-      this.caFile = this.fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt')
-    ).then
-    (
-      this.options = {
-        // port: 8883,
-        // host: '35.176.252.212',
-        // key: KEY,
-        ca: this.caFile,
-        rejectUnauthorized: false,
-        // The CA list will be used to determine if server is authorized
-        // protocol: 'mqtts'
-      }
-    )};
 
-  connect = props => {
-    this.client  = this.mqtt.connect("mqtts://35.176.252.212:8883", this.options);
-    console.log("connected flag  " + this.client.connected);
+    var macaddress = require('macaddress');
+
+    const thisMacaddress = macaddress;
+
+    const fs = require('fs');
+    const https = require('https');
+    const axios = require('axios');
+
+    // ...
+    const httpsAgent = new https.Agent({
+      ca: fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt'),
+    });
+
   };
 
   handleChange = ev => {
@@ -48,7 +40,16 @@ class Form extends React.Component {
   };
 
   broadcastFeedback = () => {
-    this.client.publish(`anonymous-feedback/${this.thisMacaddress}/json`, {likert_score: this.state.rating, description: this.state.description});
+    axios({
+      method: 'post',
+      url: 'https://xx.xxx.xxx.xxx:443',
+      data: {
+        mac_address: thisMacaddress,
+        likert_score: this.state.rating,
+        description: this.state.description
+      },
+      config: httpsAgent
+    });
     this.setState({ rating: null, description: null});
   };
 
