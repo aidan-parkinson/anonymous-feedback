@@ -4,12 +4,12 @@ import './form.css';
 import StarRating from '../affective-response/star-rating';
 import mqtt from 'mqtt';
 
-var macaddress = require('macaddress')
-var fs = require('fs')
+var macaddress = require('macaddress');
+var fs = require('fs');
 
-var thisMacaddress = macaddress
+const thisMacaddress = macaddress;
 
-var caFile = fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt')
+var caFile = fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt');
 
 var options = {
     // port: 8883,
@@ -21,11 +21,12 @@ var options = {
     // protocol: 'mqtts'
   }
 
-client  = mqtt.connect("mqtts://35.176.252.212:8883", options);
+var client = mqtt.connect("mqtts://35.176.252.212:8883", options);
 console.log("connected flag  " + client.connected);
 
 client.on("connect",function(){
 console.log("connected  "+ client.connected);
+})
 
 class Form extends React.Component {
   constructor(props) {
@@ -47,7 +48,7 @@ class Form extends React.Component {
   };
 
   broadcastFeedback = () => {
-    client.publish(`anonymous-feedback/${this.thisMacaddress}/json`, {likert_score: this.state.rating, description: this.state.description});
+    client.publish(`anonymous-feedback/${thisMacaddress}/json`, {likert_score: this.state.rating, description: this.state.description});
     this.setState({ rating: null, description: null});
   };
 
@@ -79,4 +80,4 @@ class Form extends React.Component {
   }
 }
 
-export default Form;
+export default Form
