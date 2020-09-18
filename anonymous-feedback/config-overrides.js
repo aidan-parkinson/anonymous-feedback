@@ -16,10 +16,17 @@ module.exports = function override(config, env) {
 
   config.target = 'node';
 
+  config.output = {
+    library: 'node_modules/mqtt/mqtt.js',
+    libraryTarget: 'global',
+    filename: 'src/browserMqtt.js',
+    auxiliaryComment: 'export mqqt.js library to global space.',
+  }
+
   config.externals = [
     /node_modules/,
     'bufferutil',
-    'utf-8-validate'
+    'utf-8-validate',
   ]
 
   return config;

@@ -4,27 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-var mqtt = require('mqtt');
-const fs = require('fs');
-
-var caFile = fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt');
-
-var options = {
-  // port: 8883,
-  // host: '35.176.252.212',
-  // key: KEY,
-  ca: caFile,
-  rejectUnauthorized: false,
-  // The CA list will be used to determine if server is authorized
-  // protocol: 'mqtts'
-}
-
-var client  = mqtt.connect("mqtts://35.176.252.212:8883", options);
-console.log("connected flag  " + client.connected);
-client.on("connect",function(){
-console.log("connected  "+ client.connected);
-});
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
