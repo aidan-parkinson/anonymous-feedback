@@ -14,7 +14,7 @@ module.exports = function override(config, env) {
 
   config.module.rules[2].oneOf[2].exclude = "/home/aidanparkinson/anonymous-feedback/anonymous-feedback/node_modules/mqtt/",
 
-  config.target = 'node';
+  // config.target = 'node';
 
   config.output = {
     library: 'node_modules/mqtt/mqtt.js',
