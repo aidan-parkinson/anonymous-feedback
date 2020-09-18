@@ -2,7 +2,7 @@ import React from 'react';
 
 import './form.css';
 import StarRating from '../affective-response/star-rating';
-import useMqtt from '../../hooks/useMqtt';
+import mqtt from '../../hooks/useMqtt';
 
 class Form extends React.Component {
   constructor(props) {
@@ -15,8 +15,6 @@ class Form extends React.Component {
 
   componentDidMount(){
     this.macaddress = require('macaddress').then(
-      this.mqtt = require('mqtt')
-    ).then(
       this.fs = require('fs')
     ).then(
       this.thisMacaddress = this.macaddress

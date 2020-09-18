@@ -8,19 +8,17 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "macaddress": "^0.5.1",
-    "mqtt": "^4.2.1",
     "object.omit": "^3.0.0",
     "react": "^15.6.2",
     "react-app-rewired": "^2.1.6",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "shebang-loader": "0.0.1"
+    "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,5 +38,8 @@
   "description": "a client for submitting anonymous feedback to a server via mqtts",
   "main": "index.js",
   "repository": "https://github.com/aidan-parkinson/anonymous-feedback",
-  "author": "aidan parkinson"
+  "author": "aidan parkinson",
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
 }

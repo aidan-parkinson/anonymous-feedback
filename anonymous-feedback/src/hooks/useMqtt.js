@@ -4,7 +4,7 @@ const useMqtt = url => {
   useEffect(() => {
     const script = document.createElement('script');
 
-    script.src = "../../browserMqtt.js";
+    script.src = "../browserMqtt.js";
     script.async = true;
 
     document.body.appendChild(script);

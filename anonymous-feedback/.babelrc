@@ -2,10 +2,5 @@
   "presets": ["@babel/preset-env"],
   {
     "useBuiltIns": "entry"
-  },
-  {
-    "targets": {
-      "node": true
-    }
   }
 }
