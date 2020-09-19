@@ -10,7 +10,6 @@ import * as fs from 'fs';
 var caFile = fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt');
 
 var options = {
-    protocol: 'mqtts',
     clientId: macaddress,
     // port: 8883,
     // host: '35.176.252.212',
