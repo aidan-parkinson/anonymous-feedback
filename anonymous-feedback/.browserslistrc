@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      "react-app",
+      {
+        "targets": {
+            "esmodules": true
+        }
+      }
+    ]
+  ]
+}

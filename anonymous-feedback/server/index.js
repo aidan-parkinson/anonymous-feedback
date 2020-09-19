@@ -1,35 +1,32 @@
-import path from 'path';
-import fs from 'fs';
+const express = require('express');
 
-import React from 'react';
-import express from 'express';
-import ReactDOMServer from 'react-dom/server';
+// we'll talk about this in a minute:
+const serverRenderer = require('./middleware/renderer');
 
-import App from '../src/App';
+const PORT = 3000;
+const path = require('path');
 
-const PORT = process.env.PORT || 3006;
+// initialize the application and create the routes
 const app = express();
+const router = express.Router();
 
-// ...
+// root (/) should always serve our server rendered page
+router.use('^/$', serverRenderer);
 
-app.get('/', (req, res) => {
-  const app = ReactDOMServer.renderToString(<App />);
+// other static resources should just be served as they are
+router.use(express.static(
+    path.resolve(__dirname, '..', 'build'),
+    { maxAge: '30d' },
+));
 
-  const indexFile = path.resolve('./build/index.html');
-  fs.readFile(indexFile, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Something went wrong:', err);
-      return res.status(500).send('Oops, better luck next time!');
+// tell the app to use the above rules
+app.use(router);
+
+// start the app
+app.listen(PORT, (error) => {
+    if (error) {
+        return console.log('something bad happened', error);
     }
 
-    return res.send(
-      data.replace('<div id="root"></div>', `<div id="root">${app}</div>`)
-    );
-  });
-});
-
-app.use(express.static('./build'));
-
-app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
+    console.log("listening on " + PORT + "...");
 });
