@@ -9,7 +9,11 @@ require('@babel/register')({
     ],
     plugins: [
       "@babel/plugin-transform-modules-commonjs",
-      "@babel/plugin-proposal-class-properties"
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-transform-react-jsx",
+      "dynamic-import-node",
+      "@loadable/babel-plugin",
+      "@babel/plugin-syntax-dynamic-import"
     ],
     ignore: [ /(node_modules)/ ]
 });

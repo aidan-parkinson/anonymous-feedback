@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-
+import Loadable from 'react-loadable';
 // import our main App component
 import App from '../src/App';
 
@@ -50,10 +50,9 @@ router.use(express.static(
 app.use(router);
 
 // start the app
-app.listen(PORT, (error) => {
-    if (error) {
-        return console.log('something bad happened', error);
-    }
-
-    console.log("listening on " + PORT + "...");
+Loadable.preloadAll().then(() => {
+    app.listen(PORT, (error) => {
+        // ...
+        console.log("listening on " + PORT + "...");
+    });
 });
