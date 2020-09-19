@@ -1,39 +1,59 @@
-var React = require('react');
-var ReactDOMServer = require('react-dom/server');
+import React from 'react';
+import ReactDOMServer from 'react-dom/server';
 
 // import our main App component
-var App = require('../src/App');
+import App from '../src/App';
 
-var fs = require('fs');
+const fs = require('fs');
 
-var express = require('express');
+import express from 'express';
 
 const PORT = 3000;
 const path = require('path');
 
-// initialize the application
+// initialize the application and create the routes
 const app = express();
+const router = express.Router();
 
-// ...
+// root (/) should always serve our server rendered page
+router.use('^/$', function (req, res, next) {
 
-app.get('/', (req, res) => {
-  const app = ReactDOMServer.renderToString(<App />);
+    // point to the html file created by CRA's build tool
+    const filePath = path.resolve(__dirname, '..', 'build', 'index.html');
 
-  const indexFile = path.resolve('./build/index.html');
-  fs.readFile(indexFile, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Something went wrong:', err);
-      return res.status(500).send('Oops, better luck next time!');
-    }
+    fs.readFile(filePath, 'utf8', (err, htmlData) => {
+        if (err) {
+            console.error('err', err);
+            return res.status(404).end()
+        }
 
-    return res.send(
-      data.replace('<div id="root"></div>', `<div id="root">${app}</div>`)
-    );
-  });
+        // render the app as a string
+        const html = ReactDOMServer.renderToString(<App/>);
+
+        // inject the rendered app into our html and send it
+        return res.send(
+            htmlData.replace(
+                '<div id="root"></div>',
+                `<div id="root">${html}</div>`
+            )
+        );
+    });
 });
 
-app.use(express.static('./build'));
+// other static resources should just be served as they are
+router.use(express.static(
+    path.resolve(__dirname, '..', 'build'),
+    { maxAge: '30d' },
+));
 
-app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
+// tell the app to use the above rules
+app.use(router);
+
+// start the app
+app.listen(PORT, (error) => {
+    if (error) {
+        return console.log('something bad happened', error);
+    }
+
+    console.log("listening on " + PORT + "...");
 });

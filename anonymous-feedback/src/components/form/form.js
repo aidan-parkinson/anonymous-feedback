@@ -4,14 +4,14 @@ import './form.css';
 import StarRating from '../affective-response/star-rating';
 import mqtt from 'mqtt';
 
-var macaddress = require('macaddress');
-var fs = require('fs');
-
-const thisMacaddress = macaddress;
+import macaddress from 'macaddress';
+import * as fs from 'fs';
 
 var caFile = fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt');
 
 var options = {
+    protocol: 'mqtts',
+    clientId: macaddress,
     // port: 8883,
     // host: '35.176.252.212',
     // key: KEY,
@@ -21,7 +21,7 @@ var options = {
     // protocol: 'mqtts'
   }
 
-var client = mqtt.connect("mqtts://35.176.252.212:8883", options);
+var client = mqtt.connect("ws://35.176.252.212:4433", options);
 console.log("connected flag  " + client.connected);
 
 client.on("connect",function(){
@@ -48,7 +48,7 @@ class Form extends React.Component {
   };
 
   broadcastFeedback = () => {
-    client.publish(`anonymous-feedback/${thisMacaddress}/json`, {likert_score: this.state.rating, description: this.state.description});
+    client.publish(`anonymous-feedback/${macaddress}/json`, {likert_score: this.state.rating, description: this.state.description});
     this.setState({ rating: null, description: null});
   };
 
