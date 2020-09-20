@@ -4,7 +4,7 @@ import Loadable from 'react-loadable';
 
 const Form  = Loadable({
   loader: () => import('./components/form/form'),
-  loading: () => <div>connecting...</div>,
+  loading: () => <div>have you the certificate? ...</div>,
 });
 
 function App() {
