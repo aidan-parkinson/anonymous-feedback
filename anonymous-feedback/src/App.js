@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Loadable from 'react-loadable';
 
-const Form  = Loadable({
+var Form = Loadable({
   loader: () => import('./components/form/form'),
   loading: () => <div>have you the certificate? ...</div>,
 });
