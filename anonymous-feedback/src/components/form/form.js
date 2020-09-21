@@ -14,7 +14,7 @@ var options = {
     // port: 8883,
     // host: '35.176.252.212',
     // key: KEY,
-    ca: caFile,|
+    ca: caFile,
     rejectUnauthorized: false,
     // The CA list will be used to determine if server is authorized
     // protocol: 'mqtts'
