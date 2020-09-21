@@ -1,20 +1,8 @@
-#Install node
-FROM node:12
-
-# Setting working directory
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+# Install Apache web server
+From httpd:2.4
 
 # Install dependencies
-COPY /anonymous-feedback/package*.json ./
-RUN npm install
+COPY anonymous-feedback/build /usr/local/apache2/htdocs
 
-# Copy source files
-COPY /anonymous-feedback/. .
-
-# Build app
-RUN npm run build
-
-# Run the server
-EXPOSE 3000
-CMD ["node", "server/bootstrap.js"]
+# Expose on the web server
+EXPOSE 8080
