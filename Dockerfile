@@ -2,6 +2,7 @@
 FROM node:14.10.1
 
 # Setting working directory
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Install dependencies
@@ -15,4 +16,5 @@ COPY /anonymous-feedback/. .
 RUN npm run build
 
 # Run the server
+EXPOSE 3000
 CMD ["npm", "server"]
