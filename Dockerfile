@@ -17,4 +17,4 @@ RUN npm run build
 
 # Run the server
 EXPOSE 3000
-CMD ["npm", "server"]
+CMD ["node", "server/bootstrap.js"]
