@@ -7,7 +7,7 @@ import mqtt from 'mqtt';
 import macaddress from 'macaddress';
 import * as fs from 'fs';
 
-var caFile = fs.readFileSync('/etc/ca-certificates/learning-iot-ca.crt');
+var caFile = fs.readFileSync('/etc/ssl/certs/learning-iot-ca.crt');
 
 var options = {
     clientId: macaddress,
