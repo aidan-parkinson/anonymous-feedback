@@ -2,10 +2,10 @@
 FROM node:14.10.1
 
 # Setting working directory
-WORKDIR /anonymous-feedback
+WORKDIR /usr/src/app
 
 # Install dependencies
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
 
 # Copy source files
