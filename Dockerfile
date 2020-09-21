@@ -9,7 +9,7 @@ COPY /anonymous-feedback/package*.json ./
 RUN npm install
 
 # Copy source files
-COPY . .
+COPY /anonymous-feedback/. .
 
 # Build app
 RUN npm run build
