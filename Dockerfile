@@ -1,5 +1,5 @@
 #Install node
-FROM node:14.10.1
+FROM node:12
 
 # Setting working directory
 RUN mkdir -p /usr/src/app
