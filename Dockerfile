@@ -5,7 +5,7 @@ FROM node:14.10.1
 WORKDIR /anonymous-feedback
 
 # Install dependencies
-COPY package*.json
+COPY package*.json ./
 RUN npm install
 
 # Copy source files
