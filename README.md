@@ -10,5 +10,5 @@ sudo curl -O learning-iot.aidanparkinson.xyz
 
 ## Navigate to web application
 ```
-wss.aidanparkinson.xyz:80
+wss.aidanparkinson.xyz:443
 ```
