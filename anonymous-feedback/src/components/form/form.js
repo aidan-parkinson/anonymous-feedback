@@ -49,6 +49,7 @@ class Form extends React.Component {
   broadcastFeedback = () => {
     client.publish(`anonymous-feedback/${macaddress}/json`, {likert_score: this.state.rating, description: this.state.description});
     this.setState({ rating: null, description: null});
+    window.location.reload(false);
   };
 
   render() {
