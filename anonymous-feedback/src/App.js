@@ -1,11 +1,6 @@
 import React from 'react';
 import './App.css';
-import Loadable from 'react-loadable';
-
-var Form = Loadable({
-  loader: () => import('./components/form/form'),
-  loading: () => <div>have you the certificate? ...</div>,
-});
+import Form from './components/form/form'
 
 function App() {
 
