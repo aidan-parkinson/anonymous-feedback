@@ -5,22 +5,22 @@ import StarRating from '../affective-response/star-rating';
 import mqtt from 'mqtt';
 
 import macaddress from 'macaddress';
-import * as fs from 'fs';
+//import * as fs from 'fs';
 
-var caFile = fs.readFileSync('/etc/ssl/certs/learning-iot-ca.crt');
+//var caFile = fs.readFileSync('/etc/ssl/certs/learning-iot-ca.crt');
 
 var options = {
     clientId: macaddress,
     // port: 8883,
     // host: '35.176.252.212',
     // key: KEY,
-    ca: caFile,
-    rejectUnauthorized: false,
+    //ca: caFile,
+    //rejectUnauthorized: false,
     // The CA list will be used to determine if server is authorized
     // protocol: 'mqtts'
   }
 
-var client = mqtt.connect("wss://wss.aidanparkinson.xyz:443", options);
+var client = mqtt.connect("ws://wss.aidanparkinson.xyz:80", options);
 console.log("connected flag  " + client.connected);
 
 client.on("connect",function(){
