@@ -5,4 +5,4 @@ From httpd:2.4
 COPY ./anonymous-feedback/build/ /usr/local/apache2/htdocs/
 
 # Expose on the web server
-EXPOSE 8080
+EXPOSE 80
