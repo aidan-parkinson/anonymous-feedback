@@ -20,7 +20,7 @@ var options = {
     // protocol: 'mqtts'
   }
 
-var client = mqtt.connect("ws://wss.aidanparkinson.xyz:80", options);
+var client = mqtt.connect("ws://wss.aidanparkinson.xyz:9001", options);
 console.log("connected flag  " + client.connected);
 
 client.on("connect",function(){
