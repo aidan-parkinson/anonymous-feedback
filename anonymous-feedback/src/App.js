@@ -1,6 +1,12 @@
 import React from 'react';
 import './App.css';
-import Form from './components/form/form'
+import Loadable from 'react-loadable';
+
+
+var FormWrapper  = Loadable({
+  loader: () => import('./components/form/formWrapper'),
+  loading: () => <div>have you the certificate? ...</div>,
+});
 
 function App() {
 
@@ -18,7 +24,7 @@ function App() {
         <div className="question">
           An impression:
         </div>
-        <Form/>
+        <FormWrapper/>
       </header>
     </div>
   );
