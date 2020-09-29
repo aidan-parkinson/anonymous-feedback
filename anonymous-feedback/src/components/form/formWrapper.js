@@ -22,7 +22,18 @@ const FormWrapper = () => {
   console.log(caFile);
 
   if (!caFile) {
-    return(<div>loading</div>)
+    return(
+      <div>
+        <div className="instruction">
+          you do not have the correct certificate saved on your system..<br/>
+          to download the latest ca certificate to appropriate folder:<br/>
+        </div>
+        <div className="bash">
+          `cd /etc/ssl/certs`<br/>
+          `sudo rm learning-iot-ca.crt`<br/>
+          `sudo curl -O learning-iot.aidanparkinson.xyz`
+        </div>
+      </div>)
   }
 
   return (
