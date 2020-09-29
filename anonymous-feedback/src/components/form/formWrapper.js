@@ -7,19 +7,22 @@ const FormWrapper = () => {
 
   useEffect (() => {
     let ca = null;
+    console.log("a");
 
     try {
       ca = fs.readFileSync('/etc/ssl/certs/learning-iot-ca.crt');
+      console.log("b");
     }
     catch(e) {
+      console.log("c");
+      console.log(e);
     }
 
     if (ca) {
       setCaFile(ca);
     }
+    console.log(caFile);
   }, [])
-
-  console.log(caFile);
 
   if (!caFile) {
     return(
@@ -31,7 +34,7 @@ const FormWrapper = () => {
         <div className="bash">
           `cd /etc/ssl/certs`<br/>
           `sudo rm learning-iot-ca.crt`<br/>
-          `sudo curl -O learning-iot.aidanparkinson.xyz`
+          `sudo curl -0 https://learning-iot.aidanparkinson.xyz -o learning-iot-ca.crt`
         </div>
       </div>)
   }
