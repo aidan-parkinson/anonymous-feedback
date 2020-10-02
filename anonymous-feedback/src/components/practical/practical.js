@@ -102,23 +102,23 @@ class Practical extends Component {
           </a>
           <br />
           <a href = "http://kibana.aidanparkinson.xyz:5601"  style={linkStyle}>
-            http://kibana.aidanparkinson.xyz:5601
+            Kibana application
           </a>
           <br />
           <a href = "https://github.com/aidan-parkinson/ble-mqtt-bridge"  style={linkStyle}>
-            https://github.com/aidan-parkinson/ble-mqtt-bridge
+            ble-mqtt-bridge application
           </a>
           <br />
           <a href = "https://www.eclipse.org/org/foundation/"  style={linkStyle}>
-            https://www.eclipse.org/org/foundation/
+            Eclipse Foundation
           </a>
           <br />
           <a href = "https://smartcambridge.org/"  style={linkStyle}>
-            https://smartcambridge.org/
+            Smart Cambridge
           </a>
           <br />
           <a href = "https://www.londonair.org.uk/"  style={linkStyle}>
-            https://www.londonair.org.uk/
+            Londonair
           </a>
         </div>
         <div style={divStyle}>
