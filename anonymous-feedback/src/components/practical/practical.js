@@ -6,22 +6,19 @@ import Tab from 'react-bootstrap/Tab';
 import { Row, Nav, Col } from 'react-bootstrap';
 import LazyLoad from 'react-lazyload';
 
-import "./practical.css";
+const divStyle = {
+  margin : "20px",
+};
 
-import Aidan from "../../assets/practical/aidan.mp4";
-import PlatformBusiness from "../../assets/practical/platform-business.webm";
-import FeedbackExperiment from "../../assets/practical/feedback-experiment.webm";
-import FeedbackReflections from "../../assets/practical/feedback-reflections.webm";
-import IntroducingBLE from "../../assets/practical/introducing-ble.webm";
-import GatewayInstructions from "../../assets/practical/gateway-instructions.webm";
-import GatewayReflections from "../../assets/practical/gateway-reflections.webm";
-import OpenCases from "../../assets/practical/open-cases.webm";
+const linkStyle = {
+  color: "#2d2d2d",
+};
 
 class Practical extends Component {
   render() {
     return (
-        <div>
-          <h2>Practical</h2>
+      <div>
+        <div style={divStyle}>
           <Tab.Container id="left-tabs-example" defaultActiveKey="first">
             <Row>
               <Col sm={3}>
@@ -45,7 +42,7 @@ class Practical extends Component {
                     <Nav.Link eventKey="sixth">gateway-instructions</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="seventh">gaateway-reflections</Nav.Link>
+                    <Nav.Link eventKey="seventh">gateway-reflections</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="eighth">open-cases</Nav.Link>
@@ -55,54 +52,79 @@ class Practical extends Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <LazyLoad height={480}>
-                      <video controls src={Aidan} />
+                    <LazyLoad height={480} placeholder="loading...">
+                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/aidan.mp4" />
                     </LazyLoad>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <LazyLoad height={480}>
-                      <video controls src={PlatformBusiness} />
+                    <LazyLoad height={480} placeholder="loading...">
+                      <video controls width="550" src= "http://d1kkiml0fde0ur.cloudfront.net/practical/platform-business.webm" />
                     </LazyLoad>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    <LazyLoad height={480}>
-                      <video controls src={FeedbackExperiment} />
+                    <LazyLoad height={480} placeholder="loading...">
+                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-experiment.webm" />
                     </LazyLoad>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
-                    <LazyLoad height={480}>
-                      <video controls src={FeedbackReflections} />
+                    <LazyLoad height={480} placeholder="loading...">
+                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-reflections.webm" />
                     </LazyLoad>
                   </Tab.Pane>
-                  <Tab.Pane eventKey="fifth">
+                  <Tab.Pane eventKey="fifth" placeholder="loading...">
                     <LazyLoad height={480}>
-                      <video controls src={IntroducingBLE} />
+                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-ble.webm" />
                     </LazyLoad>
                   </Tab.Pane>
-                  <Tab.Pane eventKey="sixth">
+                  <Tab.Pane eventKey="sixth" placeholder="loading...">
                     <LazyLoad height={480}>
-                      <video controls src={GatewayInstructions} />
+                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-instructions.webm" />
                     </LazyLoad>
                   </Tab.Pane>
-                  <Tab.Pane eventKey="seventh">
+                  <Tab.Pane eventKey="seventh" placeholder="loading...">
                     <LazyLoad height={480}>
-                      <video controls src={GatewayReflections} />
+                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-reflections.webm" />
                     </LazyLoad>
                   </Tab.Pane>
-                  <Tab.Pane eventKey="eigth">
+                  <Tab.Pane eventKey="eigth" placeholder="loading...">
                     <LazyLoad height={480}>
-                      <video controls src={OpenCases} />
+                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/open-cases.webm" />
                     </LazyLoad>
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
             </Row>
           </Tab.Container>
-          <div className="question">
-            An impression:
-          </div>
+        </div>
+        <div className="Links" style={divStyle}>
+          <a href = "https://github.com/aidan-parkinson"  style={linkStyle}>
+            https://github.com/aidan-parkinson
+          </a>
+          <br />
+          <a href = "http://kibana.aidanparkinson.xyz:5601"  style={linkStyle}>
+            http://kibana.aidanparkinson.xyz:5601
+          </a>
+          <br />
+          <a href = "https://github.com/aidan-parkinson/ble-mqtt-bridge"  style={linkStyle}>
+            https://github.com/aidan-parkinson/ble-mqtt-bridge
+          </a>
+          <br />
+          <a href = "https://www.eclipse.org/org/foundation/"  style={linkStyle}>
+            https://www.eclipse.org/org/foundation/
+          </a>
+          <br />
+          <a href = "https://smartcambridge.org/"  style={linkStyle}>
+            https://smartcambridge.org/
+          </a>
+          <br />
+          <a href = "https://www.londonair.org.uk/"  style={linkStyle}>
+            https://www.londonair.org.uk/
+          </a>
+        </div>
+        <div style={divStyle}>
           <Form/>
         </div>
+      </div>
     );
   }
 }

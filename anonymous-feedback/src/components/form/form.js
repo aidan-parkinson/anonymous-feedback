@@ -3,6 +3,8 @@ import React from 'react';
 import './form.css';
 import StarRating from '../affective-response/star-rating';
 import mqtt from 'mqtt';
+import { Row, Nav, Col } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button'
 
 //import macaddress from 'macaddress';
 //import * as fs from 'fs';
@@ -32,6 +34,16 @@ client.on("connect",function(){
 console.log("connected  "+ client.connected);
 })
 
+const divStyle = {
+  margin : "20px",
+  width : "850px",
+  justifyContent: "left"
+};
+
+const textStyle = {
+  padding : "10px",
+};
+
 class Form extends React.Component {
   constructor(props) {
     super(props);
@@ -59,26 +71,31 @@ class Form extends React.Component {
 
   render() {
    return (
-      <div>
+      <div style={divStyle}>
         <div className="form-input">
-          <div className="form-input-rating">
-            <StarRating
-              numberOfStars="5"
-              currentRating={null}
-              onClick={this.setRating}
-            />
-          </div>
-          <div className="actions">
-            <button onClick={this.broadcastFeedback}>
-              Submit
-            </button>
-          </div>
-          <textarea
-            name="description"
-            id="description"
-            onChange={this.handleChange}
-            placeholder="A description of your experience..."
-            />
+          <Row>
+            <Col className="form-input-rating">
+              <StarRating
+                numberOfStars="5"
+                currentRating={null}
+                onClick={this.setRating}
+              />
+            </Col>
+            <Col className="actions">
+               <Button variant="primary" onClick={this.broadcastFeedback}>
+                Submit
+               </Button>
+            </Col>
+          </Row>
+          <Row>
+            <textarea
+              name="description"
+              id="description"
+              onChange={this.handleChange}
+              placeholder="A description of your experience..."
+              style={textStyle}
+              />
+          </Row>
         </div>
       </div>
     );
