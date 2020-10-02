@@ -5,7 +5,6 @@ import Practical from './components/practical/practical';
 import SystemsIntegration from './components/systems-integration/systems-integration';
 import Data from './components/data/data';
 import Studio from './components/studio/studio';
-import { Row, Nav, Col } from 'react-bootstrap';
 
 function App() {
 
@@ -13,8 +12,16 @@ function App() {
     margin: "20px",
   };
 
+  const divStyle = {
+    justifyContent: "center",
+    alignItems: "center",
+    display: "flex",
+    background: "#F6FAF8"
+  }
+
   return (
     <Router>
+      <div style={divStyle}>
         <div>
           <header style={headerStyle}>
             <h1>
@@ -37,7 +44,8 @@ function App() {
               <Route path='/studio' component={Studio} />
           </Switch>
         </div>
-      </Router>
+      </div>
+    </Router>
   );
 }
 

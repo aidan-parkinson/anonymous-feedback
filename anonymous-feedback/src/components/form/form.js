@@ -3,7 +3,7 @@ import React from 'react';
 import './form.css';
 import StarRating from '../affective-response/star-rating';
 import mqtt from 'mqtt';
-import { Row, Nav, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button'
 
 //import macaddress from 'macaddress';
@@ -36,7 +36,7 @@ console.log("connected  "+ client.connected);
 
 const divStyle = {
   margin : "20px",
-  width : "850px",
+  width : "800px",
   justifyContent: "left"
 };
 
