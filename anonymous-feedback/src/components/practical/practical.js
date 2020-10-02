@@ -86,7 +86,7 @@ class Practical extends Component {
                       <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-reflections.webm" />
                     </LazyLoad>
                   </Tab.Pane>
-                  <Tab.Pane eventKey="eigth" placeholder="loading...">
+                  <Tab.Pane eventKey="eighth" placeholder="loading...">
                     <LazyLoad height={480}>
                       <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/open-cases.webm" />
                     </LazyLoad>
