@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import Form from '../form/form';
 import Tab from 'react-bootstrap/Tab';
 import { Row, Nav, Col } from 'react-bootstrap';
-import LazyLoad from 'react-lazyload';
 
 const divStyle = {
   margin : "20px",
@@ -58,54 +57,34 @@ class Data extends Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/learning-objectives.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/learning-objectives.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src= "http://d1kkiml0fde0ur.cloudfront.net/data/introduction.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src= "http://d1kkiml0fde0ur.cloudfront.net/data/introduction.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/favourite-innovations.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/favourite-innovations.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/cloud.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/cloud.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fifth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/use-cases.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/use-cases.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="sixth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/data-schemas.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/data-schemas.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="seventh" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/data-protection.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/data-protection.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="eighth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/data-partnerships.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/data-partnerships.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="ninth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/client-API.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/client-API.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="tenth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/take-aways.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/data/take-aways.mp4" />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>

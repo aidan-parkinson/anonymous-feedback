@@ -25,8 +25,8 @@ function App() {
         <div>
           <header style={headerStyle}>
             <h1>
-              <span class="left-text">Learning IoT  |  </span>
-              <span class="byline">anonymous-feedback</span>
+              <span className="left-text">Learning IoT  |  </span>
+              <span className="byline">anonymous-feedback</span>
             </h1>
           </header>
           <nav className="navbar navbar-expand-lg navbar-light bg-light">

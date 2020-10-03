@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import Form from '../form/form';
 import Tab from 'react-bootstrap/Tab';
 import { Row, Nav, Col } from 'react-bootstrap';
-import LazyLoad from 'react-lazyload';
 
 const divStyle = {
   margin : "20px",
@@ -49,39 +48,25 @@ class SystemsIntegration extends Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/learning-objectives.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/learning-objectives.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src= "http://d1kkiml0fde0ur.cloudfront.net/systems-integration/introduction.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src= "http://d1kkiml0fde0ur.cloudfront.net/systems-integration/introduction.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/integration-goals.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/integration-goals.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/open-protocols.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/open-protocols.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fifth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/illustrating-challenges.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/illustrating-challenges.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="sixth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/system-vulnerabilties.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/system-vulnerabilties.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="seventh" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/take-aways.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/take-aways.mp4" />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>

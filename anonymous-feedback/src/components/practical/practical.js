@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 import Form from '../form/form';
 import Tab from 'react-bootstrap/Tab';
 import { Row, Nav, Col } from 'react-bootstrap';
-import LazyLoad from 'react-lazyload';
 
 const divStyle = {
   margin : "20px",
@@ -52,44 +51,28 @@ class Practical extends Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/aidan.mp4" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/aidan.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src= "http://d1kkiml0fde0ur.cloudfront.net/practical/platform-business.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src= "http://d1kkiml0fde0ur.cloudfront.net/practical/platform-business.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-experiment.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-experiment.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
-                    <LazyLoad height={480} placeholder="loading...">
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-reflections.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-reflections.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="fifth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-ble.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-ble.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="sixth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-instructions.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-instructions.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="seventh" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-reflections.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-reflections.mp4" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="eighth" placeholder="loading...">
-                    <LazyLoad height={480}>
-                      <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/open-cases.webm" />
-                    </LazyLoad>
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/open-cases.mp4" />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
