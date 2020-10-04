@@ -11,6 +11,7 @@ const divStyle = {
 
 const linkStyle = {
   color: "#2d2d2d",
+  fontSize: "0.9rem"
 };
 
 class Data extends Component {
