@@ -24,7 +24,7 @@ class Practical extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">aidan</Nav.Link>
+                    <Nav.Link eventKey="first">introduction</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link eventKey="second">platform-business</Nav.Link>
