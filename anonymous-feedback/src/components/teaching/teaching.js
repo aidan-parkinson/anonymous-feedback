@@ -7,7 +7,7 @@ const divStyle = {
   margin : "20px",
 };
 
-class Studio extends Component {
+class Teaching extends Component {
   render() {
     return (
       <div>
@@ -17,24 +17,24 @@ class Studio extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">studio-activity</Nav.Link>
+                    <Nav.Link eventKey="first">teaching-cases</Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="second">studio-city-example</Nav.Link>
+                    <Nav.Link eventKey="second">gla-cities-case</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-activity.mp4" />
+                    <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/teaching/writing-teaching-cases.pdf" title="writing-teaching-cases" height="400" />
                   </Tab.Pane>
                 </Tab.Content>
                 <Tab.Content>
                   <Tab.Pane eventKey="second">
-                    <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-city-example.pdf" title="studio-city-example" height="350" />
+                    <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/teaching/gla-cities-case.pdf" title="gla-cities-case" height="400" />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
@@ -49,4 +49,4 @@ class Studio extends Component {
   }
 }
 
-export default Studio;
+export default Teaching;

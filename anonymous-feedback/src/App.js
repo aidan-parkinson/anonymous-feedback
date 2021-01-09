@@ -5,6 +5,7 @@ import Practical from './components/practical/practical';
 import SystemsIntegration from './components/systems-integration/systems-integration';
 import Data from './components/data/data';
 import Studio from './components/studio/studio';
+import Teaching from './components/teaching/teaching';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
                 <li><Link to={'/systems-integration'} className="nav-link">systems integration</Link></li>
                 <li><Link to={'/data'} className="nav-link">data</Link></li>
                 <li><Link to={'/studio'} className="nav-link">studio</Link></li>
+                <li><Link to={'/teaching'} className="nav-link">teaching</Link></li>
               </ul>
           </nav>
           <Switch>
@@ -42,6 +44,7 @@ function App() {
               <Route path='/systems-integration' component={SystemsIntegration} />
               <Route path='/data' component={Data} />
               <Route path='/studio' component={Studio} />
+              <Route path='/teaching' component={Teaching} />
           </Switch>
         </div>
       </div>
