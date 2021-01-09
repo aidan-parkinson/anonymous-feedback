@@ -44,6 +44,7 @@ function App() {
               <Route path='/systems-integration' component={SystemsIntegration} />
               <Route path='/data' component={Data} />
               <Route path='/studio' component={Studio} />
+              <Route path='/teaching' component={Teaching} />
           </Switch>
         </div>
       </div>
