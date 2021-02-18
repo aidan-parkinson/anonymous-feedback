@@ -7,11 +7,12 @@ import { Row, Nav, Col } from 'react-bootstrap';
 
 const divStyle = {
   margin : "20px",
+  fontSize: "0.8rem"
 };
 
 const linkStyle = {
   color: "#2d2d2d",
-  fontSize: "0.9rem"
+  fontSize: "0.8rem"
 };
 
 class SystemsIntegration extends Component {
@@ -24,25 +25,25 @@ class SystemsIntegration extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">learning-objectives</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="first">learning-objectives</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">introduction</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="second">introduction</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">integration-goals</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="third">integration-goals</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fourth">open-protocols</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="fourth">open-protocols</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fifth">illustrating-challenges</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="fifth">illustrating-challenges</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="sixth">system-vulnerabilities</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="sixth">system-vulnerabilities</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="seventh">take-aways</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="seventh">take-aways</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
@@ -75,6 +76,8 @@ class SystemsIntegration extends Component {
           </Tab.Container>
         </div>
         <div className="Links" style={divStyle}>
+          <h2 class="navbar-brand mb-0 h1">Web links</h2>
+          <br />
           <a href = "https://www.youtube.com/watch?v=-aPRhSSv6ZE"  style={linkStyle}>
             Kathy Farrington - Google - The Next Level of IoT
           </a>

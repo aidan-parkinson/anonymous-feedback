@@ -5,6 +5,7 @@ import { Row, Nav, Col } from 'react-bootstrap';
 
 const divStyle = {
   margin : "20px",
+  fontSize: "0.8rem"
 };
 
 class Evaluation extends Component {
@@ -17,17 +18,17 @@ class Evaluation extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">teaching-cases</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="first">teaching-cases</Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="second">gla-cities-case</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="second">gla-cities-case</Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="third">gla-cities-note</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="third">gla-cities-note</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>

@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './custom.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Introduction from './components/introduction/introduction';
 import Practical from './components/practical/practical';
 import SystemsIntegration from './components/systems-integration/systems-integration';
 import Data from './components/data/data';
@@ -18,35 +20,34 @@ function App() {
     alignItems: "center",
     display: "flex",
     background: "#F6FAF8"
-  }
+  };
 
   return (
     <Router>
       <div style={divStyle}>
         <div>
           <header style={headerStyle}>
-            <h1>
-              <span className="left-text">Learning IoT  |  </span>
-              <span className="byline">anonymous-feedback</span>
-            </h1>
           </header>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light nav-fill">
+              <nav class="navbar navbar-light bg-light">
+                <span class="navbar-brand mb-0 h1">Learning IoT</span>
+              </nav>
               <ul className="navbar-nav mr-auto">
                 <li><Link to={'/'} className="nav-link">introduction</Link></li>
-                <li><Link to={'/'} className="nav-link">practical</Link></li>
+                <li><Link to={'/practical'} className="nav-link">practical</Link></li>
                 <li><Link to={'/systems-integration'} className="nav-link">systems integration</Link></li>
                 <li><Link to={'/data'} className="nav-link">data</Link></li>
                 <li><Link to={'/studio'} className="nav-link">studio</Link></li>
-                <li><Link to={'/teaching'} className="nav-link">evaluation</Link></li>
+                <li><Link to={'/evaluation'} className="nav-link">evaluation</Link></li>
               </ul>
           </nav>
           <Switch>
               <Route exact path='/' component={Introduction} />
-              <Route exact path='/' component={Practical} />
+              <Route exact path='/practical' component={Practical} />
               <Route path='/systems-integration' component={SystemsIntegration} />
               <Route path='/data' component={Data} />
               <Route path='/studio' component={Studio} />
-              <Route path='/teaching' component={Evaluation} />
+              <Route path='/evaluation' component={Evaluation} />
           </Switch>
         </div>
       </div>

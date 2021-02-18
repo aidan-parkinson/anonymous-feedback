@@ -7,11 +7,12 @@ import { Row, Nav, Col } from 'react-bootstrap';
 
 const divStyle = {
   margin : "20px",
+  fontSize: "0.8rem"
 };
 
 const linkStyle = {
   color: "#2d2d2d",
-  fontSize: "0.9rem"
+  fontSize: "0.8rem"
 };
 
 class Practical extends Component {
@@ -24,37 +25,37 @@ class Practical extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">feedback-experiment</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="first">feedback-experiment</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">feedback-reflections</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="second">feedback-reflections</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">introducing-ble</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="third">introducing-ble</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fourth">gateway-instructions</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="fourth">gateway-instructions</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fifth">gateway-results</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="fifth">gateway-results</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="sixth">gateway-reflections</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="sixth">gateway-reflections</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="seventh">introducing-dht11</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="seventh">introducing-dht11</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="eighth">dht11-display-instructions</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="eighth">dht11-display-instructions</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="ninth">dht11-mqtt-instructions</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="ninth">dht11-mqtt-instructions</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tenth">dht11-mqtt-results</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="tenth">dht11-mqtt-results</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="eleventh">dht11-reflections</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="eleventh">dht11-reflections</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
@@ -99,6 +100,8 @@ class Practical extends Component {
           </Tab.Container>
         </div>
         <div className="Links" style={divStyle}>
+          <h2 class="navbar-brand mb-0 h1">Web links</h2>
+          <br />
           <a href = "http://kibana.aidanparkinson.xyz:5601"  style={linkStyle}>
             Kibana application
           </a>

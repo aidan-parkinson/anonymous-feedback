@@ -7,11 +7,12 @@ import { Row, Nav, Col } from 'react-bootstrap';
 
 const divStyle = {
   margin : "20px",
+  fontSize: "0.8rem"
 };
 
 const linkStyle = {
   color: "#2d2d2d",
-  fontSize: "0.9rem"
+  fontSize: "0.8rem"
 };
 
 class Introduction extends Component {
@@ -24,15 +25,15 @@ class Introduction extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">aidan</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="first">aidan</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">platform-business</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="second">platform-business</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link className="nav-item" eventKey="third">open-cases</Nav.Link>
                   </Nav.Item>
                 </Nav>
-                <Nav.Item>
-                  <Nav.Link eventKey="third">open-cases</Nav.Link>
-                </Nav.Item>
               </Col>
               <Col sm={9}>
                 <Tab.Content>
@@ -51,10 +52,11 @@ class Introduction extends Component {
           </Tab.Container>
         </div>
         <div className="Links" style={divStyle}>
+          <h2 class="navbar-brand mb-0 h1">Web links</h2>
+          <br />
           <a href = "https://github.com/aidan-parkinson"  style={linkStyle}>
             https://github.com/aidan-parkinson
           </a>
-          <br />
           <br />
           <a href = "https://www.eclipse.org/org/foundation/"  style={linkStyle}>
             Eclipse Foundation
@@ -76,4 +78,4 @@ class Introduction extends Component {
   }
 }
 
-export default Practical;
+export default Introduction;

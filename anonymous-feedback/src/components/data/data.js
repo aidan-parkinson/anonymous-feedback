@@ -7,11 +7,12 @@ import { Row, Nav, Col } from 'react-bootstrap';
 
 const divStyle = {
   margin : "20px",
+  fontSize: "0.8rem"
 };
 
 const linkStyle = {
   color: "#2d2d2d",
-  fontSize: "0.9rem"
+  fontSize: "0.8rem"
 };
 
 class Data extends Component {
@@ -24,34 +25,34 @@ class Data extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">learning-objectives</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="first">learning-objectives</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">introduction</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="second">introduction</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">favourite-innovations</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="third">favourite-innovations</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fourth">cloud</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="fourth">cloud</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fifth">use-cases</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="fifth">use-cases</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="sixth">data-schemas</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="sixth">data-schemas</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="seventh">data-protection</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="seventh">data-protection</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="eighth">data-partnerships</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="eighth">data-partnerships</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="ninth">client-API</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="ninth">client-API</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tenth">take-aways</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="tenth">take-aways</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
@@ -93,6 +94,8 @@ class Data extends Component {
           </Tab.Container>
         </div>
         <div className="Links" style={divStyle}>
+          <h2 class="navbar-brand mb-0 h1">Web links</h2>
+          <br />
           <a href = "https://github.com/aidan-parkinson/anonymous-feedback/blob/master/anonymous-feedback/src/components/form/form.js"  style={linkStyle}>
             Sample unstructured data schema
           </a>
