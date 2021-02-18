@@ -7,7 +7,7 @@ const divStyle = {
   margin : "20px",
 };
 
-class Teaching extends Component {
+class Evaluation extends Component {
   render() {
     return (
       <div>
@@ -59,4 +59,4 @@ class Teaching extends Component {
   }
 }
 
-export default Teaching;
+export default Evaluation;
