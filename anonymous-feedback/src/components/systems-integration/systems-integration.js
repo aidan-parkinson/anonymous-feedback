@@ -20,7 +20,7 @@ class SystemsIntegration extends Component {
     return (
       <div>
         <div style={divStyle}>
-          <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+          <Tab.Container id="left-tabs-example" defaultActiveKey="first"  unmountOnExit>
             <Row>
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">

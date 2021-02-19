@@ -1,3 +1,5 @@
+// Studio.js
+
 import React, { Component } from 'react';
 import Form from '../form/form';
 import Tab from 'react-bootstrap/Tab';
@@ -13,7 +15,7 @@ class Studio extends Component {
     return (
       <div>
         <div style={divStyle}>
-          <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+          <Tab.Container id="left-tabs-example" defaultActiveKey="first"  unmountOnExit>
             <Row>
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
