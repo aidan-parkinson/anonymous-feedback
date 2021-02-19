@@ -27,7 +27,7 @@ class Practical extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link className="nav-item" eventKey="preliminary">hardware-requirements</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="preliminary">equipment-requirements</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link className="nav-item" eventKey="first">feedback-experiment</Nav.Link>
@@ -67,7 +67,7 @@ class Practical extends Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="preliminary">
-                    <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/hardware-requirements.pdf"/>
+                    <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/equipment-requirements.pdf" title="equipment-requirements" height="400" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="first">
                     <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-experiment.mp4"/>
