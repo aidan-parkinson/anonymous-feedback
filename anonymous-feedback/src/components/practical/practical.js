@@ -7,11 +7,12 @@ import { Row, Nav, Col } from 'react-bootstrap';
 
 const divStyle = {
   margin : "20px",
+  fontSize: "0.8rem"
 };
 
 const linkStyle = {
   color: "#2d2d2d",
-  fontSize: "0.9rem"
+  fontSize: "0.8rem"
 };
 
 class Practical extends Component {
@@ -24,56 +25,74 @@ class Practical extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">aidan</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="first">feedback-experiment</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">platform-business</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="second">feedback-reflections</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">feedback-experiment</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="third">introducing-ble</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fourth">feedback-reflections</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="fourth">gateway-instructions</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="fifth">introducing-ble</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="fifth">gateway-results</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="sixth">gateway-instructions</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="sixth">gateway-reflections</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="seventh">gateway-reflections</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="seventh">introducing-dht11</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="eighth">open-cases</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="eighth">dht11-display-instructions</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link className="nav-item" eventKey="ninth">dht11-mqtt-instructions</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link className="nav-item" eventKey="tenth">dht11-mqtt-results</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link className="nav-item" eventKey="eleventh">dht11-reflections</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/aidan.mp4" />
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="second">
-                    <video controls width="550" src= "http://d1kkiml0fde0ur.cloudfront.net/practical/platform-business.mp4" />
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="third">
                     <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-experiment.mp4" />
                   </Tab.Pane>
-                  <Tab.Pane eventKey="fourth">
+                  <Tab.Pane eventKey="second">
                     <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-reflections.mp4" />
                   </Tab.Pane>
-                  <Tab.Pane eventKey="fifth" placeholder="loading...">
+                  <Tab.Pane eventKey="third" placeholder="loading...">
                     <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-ble.mp4" />
                   </Tab.Pane>
-                  <Tab.Pane eventKey="sixth" placeholder="loading...">
+                  <Tab.Pane eventKey="fourth" placeholder="loading...">
                     <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-instructions.mp4" />
                   </Tab.Pane>
-                  <Tab.Pane eventKey="seventh" placeholder="loading...">
+                  <Tab.Pane eventKey="fifth" placeholder="loading...">
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-results.mp4" />
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="sixth" placeholder="loading...">
                     <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-reflections.mp4" />
                   </Tab.Pane>
+                  <Tab.Pane eventKey="seventh">
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-dht11.mp4" />
+                  </Tab.Pane>
                   <Tab.Pane eventKey="eighth" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/open-cases.mp4" />
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-display-instructions.mp4" />
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="ninth" placeholder="loading...">
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-mqtt-instructions.mp4" />
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="tenth" placeholder="loading...">
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-mqtt-results.mp4" />
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="eleventh" placeholder="loading...">
+                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-reflections.mp4" />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
@@ -81,9 +100,7 @@ class Practical extends Component {
           </Tab.Container>
         </div>
         <div className="Links" style={divStyle}>
-          <a href = "https://github.com/aidan-parkinson"  style={linkStyle}>
-            https://github.com/aidan-parkinson
-          </a>
+          <h2 class="navbar-brand mb-0 h1">Web links</h2>
           <br />
           <a href = "http://kibana.aidanparkinson.xyz:5601"  style={linkStyle}>
             Kibana application
@@ -93,16 +110,8 @@ class Practical extends Component {
             ble-mqtt-bridge application
           </a>
           <br />
-          <a href = "https://www.eclipse.org/org/foundation/"  style={linkStyle}>
-            Eclipse Foundation
-          </a>
-          <br />
-          <a href = "https://smartcambridge.org/"  style={linkStyle}>
-            Smart Cambridge
-          </a>
-          <br />
-          <a href = "https://www.londonair.org.uk/"  style={linkStyle}>
-            Londonair
+          <a href = "https://www.youtube.com/watch?v=GsG1OClojOk"  style={linkStyle}>
+            ble-mqtt-bridge application
           </a>
         </div>
         <div style={divStyle}>

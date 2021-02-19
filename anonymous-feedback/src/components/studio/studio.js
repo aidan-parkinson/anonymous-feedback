@@ -5,6 +5,7 @@ import { Row, Nav, Col } from 'react-bootstrap';
 
 const divStyle = {
   margin : "20px",
+  fontSize: "0.8rem"
 };
 
 class Studio extends Component {
@@ -17,17 +18,17 @@ class Studio extends Component {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="first">studio-activity</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="first">studio-activity</Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="second">studio-city-example</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="second">city-example</Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="third">manufacturing-city-example</Nav.Link>
+                    <Nav.Link className="nav-item" eventKey="third">manufacturing-example</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>
@@ -39,7 +40,7 @@ class Studio extends Component {
                 </Tab.Content>
                 <Tab.Content>
                   <Tab.Pane eventKey="second">
-                    <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-city-example.pdf" title="studio-city-example" height="350" />
+                    <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-city-example.pdf" title="city-example" height="350" />
                   </Tab.Pane>
                 </Tab.Content>
                 <Tab.Content>
