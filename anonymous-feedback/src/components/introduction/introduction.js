@@ -32,7 +32,7 @@ class Introduction extends Component {
         Please proceed to follow the content in order, selecting each blue tab from top-to-bottom before moving onto the next section to the right using the top navigation.
       </p>
         <div style={divStyle}>
-          <Tab.Container id="left-tabs-example" defaultActiveKey="first"  unmountOnExit>
+          <Tab.Container id="left-tabs-example" defaultActiveKey="second"  unmountOnExit>
             <Row>
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
