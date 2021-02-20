@@ -52,7 +52,7 @@ class Studio extends Component {
                   <Tab.Pane eventKey="first">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/studio/studio-activity.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/studio/studio-activity.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/studio/studio-activity.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                 </Tab.Content>

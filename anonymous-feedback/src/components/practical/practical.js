@@ -84,67 +84,67 @@ class Practical extends Component {
                   <Tab.Pane eventKey="first">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/feedback-experiment.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/feedback-experiment.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/feedback-experiment.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/feedback-reflections.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/feedback-reflections.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/feedback-reflections.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third" placeholder="loading...">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/introducing-ble.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/introducing-ble.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/introducing-ble.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth" placeholder="loading...">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/gateway-instructions.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/gateway-instructions.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/gateway-instructions.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fifth" placeholder="loading...">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/gateway-results.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/gateway-results.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/gateway-results.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="sixth" placeholder="loading...">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/gateway-reflections.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/gateway-reflections.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/gateway-reflections.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="seventh">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/introducing-dht11.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/introducing-dht11.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/introducing-dht11.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="eighth" placeholder="loading...">
                     <video controls width="550">
-                      <source src="http://resources-learning-iot.aidanparkinson.xyz//practical/dht11-display-instructions.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz//practical/dht11-display-instructions.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/dht11-display-instructions.mp4" type="video/mp4"/>
+                      <track src="/resources/practical/dht11-display-instructions.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="ninth" placeholder="loading...">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/dht11-mqtt-instructions.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/dht11-mqtt-instructions.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/dht11-mqtt-instructions.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="tenth" placeholder="loading...">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/dht11-mqtt-results.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/dht11-mqtt-results.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/dht11-mqtt-results.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="eleventh" placeholder="loading...">
                     <video controls width="550">
                       <source src="http://resources-learning-iot.aidanparkinson.xyz/practical/dht11-reflections.mp4" type="video/mp4"/>
-                      <track src="http://resources-learning-iot.aidanparkinson.xyz/practical/dht11-reflections.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <track src="/resources/practical/dht11-reflections.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                 </Tab.Content>
