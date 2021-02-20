@@ -13,7 +13,6 @@
     "core-util-is": "^1.0.2",
     "express": "^4.17.1",
     "ignore-styles": "^5.0.1",
-    "jquery": "^3.5.1",
     "macaddress": "^0.5.1",
     "mqtt": "^4.2.1",
     "object.omit": "^3.0.0",

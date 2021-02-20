@@ -50,7 +50,10 @@ class Studio extends Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-activity.mp4" />
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-activity.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-activity.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                 </Tab.Content>
                 <Tab.Content>

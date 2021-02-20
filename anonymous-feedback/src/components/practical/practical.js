@@ -5,7 +5,6 @@ import Form from '../form/form';
 import Branding from '../branding/branding';
 import Tab from 'react-bootstrap/Tab';
 import { Row, Nav, Col } from 'react-bootstrap';
-import $ from 'jquery';
 
 const divStyle = {
   margin : "20px",
@@ -83,37 +82,70 @@ class Practical extends Component {
                     <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/equipment-requirements.pdf" title="equipment-requirements" height="400" />
                   </Tab.Pane>
                   <Tab.Pane eventKey="first">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-experiment.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-experiment.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-experiment.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-reflections.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-reflections.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/feedback-reflections.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-ble.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-ble.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-ble.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-instructions.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-instructions.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-instructions.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fifth" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-results.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-results.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-results.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="sixth" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-reflections.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-reflections.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/gateway-reflections.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="seventh">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-dht11.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-dht11.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/introducing-dht11.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="eighth" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-display-instructions.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-display-instructions.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-display-instructions.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="ninth" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-mqtt-instructions.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-mqtt-instructions.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-mqtt-instructions.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="tenth" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-mqtt-results.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-mqtt-results.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-mqtt-results.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="eleventh" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-reflections.mp4"/>
+                    <video controls width="550">
+                      <source src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-reflections.mp4" type="video/mp4"/>
+                      <track src="http://d1kkiml0fde0ur.cloudfront.net/practical/dht11-reflections.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
