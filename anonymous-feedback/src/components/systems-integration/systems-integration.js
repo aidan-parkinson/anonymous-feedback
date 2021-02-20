@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import Form from '../form/form';
+import Branding from '../branding/branding';
 import Tab from 'react-bootstrap/Tab';
 import { Row, Nav, Col } from 'react-bootstrap';
 
@@ -15,12 +16,23 @@ const linkStyle = {
   fontSize: "0.8rem"
 };
 
+const parStyle = {
+  width: "800px",
+  color: "#2d2d2d",
+  textAlign: "justify",
+  margin: "30px",
+  fontSize: "0.8rem"
+};
+
 class SystemsIntegration extends Component {
   render() {
     return (
       <div>
+        <p style={parStyle}>
+          This section offers a series of presentations to provide a technical introduction to systems integration strategy.
+        </p>
         <div style={divStyle}>
-          <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+          <Tab.Container id="left-tabs-example" defaultActiveKey="first"  unmountOnExit>
             <Row>
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
@@ -50,25 +62,46 @@ class SystemsIntegration extends Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/learning-objectives.mp4" />
+                    <video controls width="550">
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/learning-objectives.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/learning-objectives.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
-                    <video controls width="550" src= "http://d1kkiml0fde0ur.cloudfront.net/systems-integration/introduction.mp4" />
+                    <video controls width="550">
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/introduction.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/introduction.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/integration-goals.mp4" />
+                    <video controls width="550">
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/integration-goals.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/integration-goals.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/open-protocols.mp4" />
+                    <video controls width="550">
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/open-protocols.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/open-protocols.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fifth" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/illustrating-challenges.mp4" />
+                    <video controls width="550">
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/illustrating-challenges.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/illustrating-challenges.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="sixth" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/system-vulnerabilties.mp4" />
+                    <video controls width="550">
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/system-vulnerabilties.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/system-vulnerabilties.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="seventh" placeholder="loading...">
-                    <video controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/systems-integration/take-aways.mp4" />
+                    <video controls width="550">
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/take-aways.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/systems-integration/take-aways.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                    </video>
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
@@ -84,6 +117,9 @@ class SystemsIntegration extends Component {
         </div>
         <div style={divStyle}>
           <Form/>
+        </div>
+        <div style={divStyle}>
+          <Branding/>
         </div>
       </div>
     );
