@@ -16,11 +16,23 @@ const linkStyle = {
   fontSize: "0.8rem"
 };
 
+const parStyle = {
+  width: "800px",
+  color: "#2d2d2d",
+  textAlign: "justify",
+  margin: "20px",
+  fontSize: "0.8rem"
+};
+
 class Practical extends Component {
 
   render() {
     return (
       <div>
+        <p style={parStyle}>
+          This section offers a series of simple practical activities to provide a technical introduction to the main concepts of Internet-of-Things (IoT) technologies.<br/><br/>
+          To participate fully it is necessary to obtain and assemble some equipment that is described in the `Equipment Requirements` document.
+        </p>
         <div style={divStyle}>
           <Tab.Container id="left-tabs-example" defaultActiveKey="preliminary" unmountOnExit>
             <Row>

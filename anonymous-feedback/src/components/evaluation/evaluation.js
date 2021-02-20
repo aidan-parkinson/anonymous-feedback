@@ -10,10 +10,23 @@ const divStyle = {
   fontSize: "0.8rem"
 };
 
+const parStyle = {
+  width: "800px",
+  color: "#2d2d2d",
+  textAlign: "justify",
+  margin: "20px",
+  fontSize: "0.8rem"
+};
+
 class Evaluation extends Component {
   render() {
     return (
       <div>
+        <p style={parStyle}>
+          This final section is intended for use by a teacher in a classroom setting.<br/><br/>
+          A brief guidance document has been included for writing and teaching Harvard Case Studies.
+          A recommended original Harvard Case Study for this course is then provided that may be used as an evaluation exercise to assess learners progress.
+        </p>
         <div style={divStyle}>
           <Tab.Container id="left-tabs-example" defaultActiveKey="first"  unmountOnExit>
             <Row>

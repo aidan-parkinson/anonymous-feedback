@@ -15,10 +15,21 @@ const linkStyle = {
   fontSize: "0.8rem"
 };
 
+const parStyle = {
+  width: "800px",
+  color: "#2d2d2d",
+  textAlign: "justify",
+  margin: "20px",
+  fontSize: "0.8rem"
+};
+
 class Data extends Component {
   render() {
     return (
       <div>
+        <p style={parStyle}>
+          This section offers a series of presentations to provide a technical introduction to data strategy.
+        </p>
         <div style={divStyle}>
           <Tab.Container id="left-tabs-example" defaultActiveKey="first"  unmountOnExit>
             <Row>

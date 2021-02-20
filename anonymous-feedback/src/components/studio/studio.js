@@ -10,10 +10,22 @@ const divStyle = {
   fontSize: "0.8rem"
 };
 
+const parStyle = {
+  width: "800px",
+  color: "#2d2d2d",
+  textAlign: "justify",
+  margin: "20px",
+  fontSize: "0.8rem"
+};
+
 class Studio extends Component {
   render() {
     return (
       <div>
+        <p style={parStyle}>
+          This section provides an opportunity to participate in a studio activity to develop a concept for IoT innovation.<br/><br/>
+          Please view the activity instructions and example results before making an attempt yourself, or as part of a team.
+        </p>
         <div style={divStyle}>
           <Tab.Container id="left-tabs-example" defaultActiveKey="first"  unmountOnExit>
             <Row>
