@@ -52,20 +52,20 @@ class Introduction extends Component {
                 <Tab.Content>
                   <Tab.Pane eventKey="second">
                     <video controls width="550">
-                      <source src="http://d1kkiml0fde0ur.cloudfront.net/introduction/aidan.mp4" type="video/mp4"/>
-                      <track src="http://d1kkiml0fde0ur.cloudfront.net/introduction/aidan.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/introduction/aidan.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/introduction/aidan.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <video controls width="550">
-                      <source src="http://d1kkiml0fde0ur.cloudfront.net/introduction/platform-business.mp4" type="video/mp4"/>
-                      <track src="http://d1kkiml0fde0ur.cloudfront.net/introduction/platform-business.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/introduction/platform-business.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/introduction/platform-business.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth" placeholder="loading...">
                     <video controls width="550">
-                      <source src="http://d1kkiml0fde0ur.cloudfront.net/introduction/open-cases.mp4" type="video/mp4"/>
-                      <track src="http://d1kkiml0fde0ur.cloudfront.net/introduction/open-cases.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/introduction/open-cases.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/introduction/open-cases.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                 </Tab.Content>

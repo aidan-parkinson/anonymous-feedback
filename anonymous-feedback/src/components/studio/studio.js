@@ -51,19 +51,19 @@ class Studio extends Component {
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
                     <video controls width="550">
-                      <source src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-activity.mp4" type="video/mp4"/>
-                      <track src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-activity.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
+                      <source src="http://resources-learning-iot.aidanparkinson.xyz/studio/studio-activity.mp4" type="video/mp4"/>
+                      <track src="http://resources-learning-iot.aidanparkinson.xyz/studio/studio-activity.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                 </Tab.Content>
                 <Tab.Content>
                   <Tab.Pane eventKey="second">
-                    <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-city-example.pdf" title="city-example" height="350" />
+                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/studio/studio-city-example.pdf" title="city-example" height="350" />
                   </Tab.Pane>
                 </Tab.Content>
                 <Tab.Content>
                   <Tab.Pane eventKey="third">
-                    <iframe controls width="550" src="http://d1kkiml0fde0ur.cloudfront.net/studio/studio-manufacturing-example.pdf" title="manufacturing-city-example" height="350" />
+                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/studio/studio-manufacturing-example.pdf" title="manufacturing-city-example" height="350" />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
