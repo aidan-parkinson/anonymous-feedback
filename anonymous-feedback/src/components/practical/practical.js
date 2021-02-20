@@ -2,6 +2,7 @@
 
 import React, { Component} from 'react';
 import Form from '../form/form';
+import Branding from '../branding/branding';
 import Tab from 'react-bootstrap/Tab';
 import { Row, Nav, Col } from 'react-bootstrap';
 import $ from 'jquery';
@@ -20,7 +21,7 @@ const parStyle = {
   width: "800px",
   color: "#2d2d2d",
   textAlign: "justify",
-  margin: "20px",
+  margin: "30px",
   fontSize: "0.8rem"
 };
 
@@ -148,6 +149,9 @@ class Practical extends Component {
         </div>
         <div style={divStyle}>
           <Form/>
+        </div>
+        <div style={divStyle}>
+          <Branding/>
         </div>
       </div>
     );
