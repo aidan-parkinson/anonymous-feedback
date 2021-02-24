@@ -51,17 +51,17 @@ class Evaluation extends Component {
               <Col sm={9}>
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
-                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/teaching/writing-teaching-cases.pdf" title="writing-teaching-cases" height="400" />
+                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/evaluation/writing-teaching-cases.pdf" title="writing-teaching-cases" height="400" />
                   </Tab.Pane>
                 </Tab.Content>
                 <Tab.Content>
                   <Tab.Pane eventKey="second">
-                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/teaching/gla-cities-case.pdf" title="gla-cities-case" height="400" />
+                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/evaluation/gla-cities-case.pdf" title="gla-cities-case" height="400" />
                   </Tab.Pane>
                 </Tab.Content>
                 <Tab.Content>
                   <Tab.Pane eventKey="third">
-                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/teaching/gla-cities-TN.pdf" title="gla-cities-case" height="400" />
+                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/evaluation/gla-cities-TN.pdf" title="gla-cities-case" height="400" />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
