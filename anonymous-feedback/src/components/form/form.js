@@ -66,7 +66,7 @@ class Form extends React.Component {
       console.log("connected flag  " + client.connected);
       client.on("connect",function(){
         console.log("connected  "+ client.connected);
-        let broadcastFeedback = () => {
+        this.broadcastFeedback = () => {
           client.publish(`anonymous-feedback/json`, JSON.stringify({likert_score: this.state.rating, description: this.state.description}), retain);
           this.setState({ rating: null, description: null});
           window.location.reload(false);
