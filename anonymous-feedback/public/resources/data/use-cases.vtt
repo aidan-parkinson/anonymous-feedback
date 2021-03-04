@@ -1,0 +1,510 @@
+WEBVTT
+
+NOTE duration:"00:03:13.0450000"
+
+NOTE language:en-us
+
+NOTE Confidence: 0.8729222
+
+a6ca3bf0-b23f-4597-92a8-e76de853b97f
+00:00:00.000 --> 00:00:03.080
+One of the main use cases for development
+
+NOTE Confidence: 0.8729222
+
+519aea14-0208-4bd8-a045-056a16013d3c
+00:00:03.080 --> 00:00:05.485
+of Internet of Things Technologies
+
+NOTE Confidence: 0.8729222
+
+014a1fdd-4267-4949-bdb9-dc94ed3e5dca
+00:00:05.485 --> 00:00:08.075
+is to develop enhanced interfaces.
+
+NOTE Confidence: 0.8729222
+
+a7c7c7be-43ea-4d90-a85c-fe9ddb9d1d90
+00:00:08.080 --> 00:00:10.568
+These interfaces provide organized
+
+NOTE Confidence: 0.8729222
+
+3fabe22d-a70a-42dd-9e34-fcd99a43523d
+00:00:10.568 --> 00:00:13.056
+information that improves the
+
+NOTE Confidence: 0.8729222
+
+8501494b-d026-4403-b346-d700468d72a5
+00:00:13.056 --> 00:00:15.090
+customer's situational awareness.
+
+NOTE Confidence: 0.8729222
+
+0cde07a5-472f-4599-9d9b-9220bc8b4092
+00:00:15.090 --> 00:00:17.004
+We are now going to consider
+
+NOTE Confidence: 0.8729222
+
+3a657bf2-5111-4b6b-be05-29831ba874f4
+00:00:17.004 --> 00:00:18.771
+three types of customer interfaces
+
+NOTE Confidence: 0.8729222
+
+65936b3b-2c36-4350-8f85-909bf5bbbf46
+00:00:18.771 --> 00:00:21.315
+that will help us appreciate how
+
+NOTE Confidence: 0.8729222
+
+648946bb-be45-40f9-b1ee-49a921809e30
+00:00:21.315 --> 00:00:23.080
+diverse such applications can be.
+
+NOTE Confidence: 0.8729222
+
+dee9fd95-16d7-4f23-a118-87ee180c4103
+00:00:23.080 --> 00:00:24.765
+Many Internet of Things business
+
+NOTE Confidence: 0.8729222
+
+d7d21564-6a86-4258-a313-97a0aae3938f
+00:00:24.765 --> 00:00:26.450
+simply exist to provide an
+
+NOTE Confidence: 0.8729222
+
+e0537219-a85e-4cba-80c6-6cf22156dd9f
+00:00:26.508 --> 00:00:28.632
+interface for data that has been
+
+NOTE Confidence: 0.8729222
+
+b073fd75-062f-47e0-9e38-c377ffd66041
+00:00:28.632 --> 00:00:30.450
+recognized to be particularly valid.
+
+NOTE Confidence: 0.8729222
+
+1fb3dc1b-da98-4b19-a247-0b1f574c2378
+00:00:30.450 --> 00:00:32.669
+An example of this use case might
+
+NOTE Confidence: 0.8729222
+
+55d718d6-b6fe-4e41-a6d0-a83415dbbbdc
+00:00:32.669 --> 00:00:34.590
+be the Ordnance Survey OS map.
+
+NOTE Confidence: 0.8729222
+
+cfc82e08-721e-4e48-bb6b-e607793fc847
+00:00:34.590 --> 00:00:36.900
+These business says may expose a web
+
+NOTE Confidence: 0.8729222
+
+aaa9f260-db70-4637-b623-a79be9149e08
+00:00:36.900 --> 00:00:39.175
+application for users to explore their
+
+NOTE Confidence: 0.8729222
+
+fca9d43e-cd6c-423b-baa0-a70701a0b072
+00:00:39.175 --> 00:00:41.220
+information and or an application
+
+NOTE Confidence: 0.8729222
+
+b24676a2-4c8b-45af-859f-127b193ff737
+00:00:41.220 --> 00:00:43.178
+programming interface so that other
+
+NOTE Confidence: 0.8729222
+
+8caf6f61-6ba3-4c83-b1bd-b561b0671d22
+00:00:43.178 --> 00:00:44.968
+business applications can make requests
+
+NOTE Confidence: 0.8729222
+
+0e85aa4e-45ad-4989-8395-65c82dd43a06
+00:00:44.968 --> 00:00:46.800
+for their data as complementors.
+
+NOTE Confidence: 0.85504156
+
+b6f4a73c-12df-492b-bc0e-ba3b39ceb48c
+00:00:49.160 --> 00:00:52.208
+Another type of interface might be for alarm
+
+NOTE Confidence: 0.85504156
+
+ba5c7a7d-f5a7-4e2f-aee1-08168176baee
+00:00:52.208 --> 00:00:54.947
+management of a complex facility or system.
+
+NOTE Confidence: 0.85504156
+
+a2c0402f-926e-4fab-921d-5c4484262eb2
+00:00:54.950 --> 00:00:57.692
+This use case provides prioritized signals
+
+NOTE Confidence: 0.85504156
+
+c76700fa-2e38-4efb-baea-606bac6cbfec
+00:00:57.692 --> 00:01:00.527
+of performance so that operators attention
+
+NOTE Confidence: 0.85504156
+
+7b4300d3-49d5-411a-be47-fb7e89cc8b48
+00:01:00.527 --> 00:01:03.803
+is focused on the most beneficial tasks.
+
+NOTE Confidence: 0.85504156
+
+75078a0a-3c34-4a95-b3e5-cb5f8182023c
+00:01:03.810 --> 00:01:05.856
+Quite recently, we've seen the emergence
+
+NOTE Confidence: 0.85504156
+
+e58d24d6-8049-4214-a773-298a46dc195d
+00:01:05.856 --> 00:01:08.220
+of augmented reality as a use case
+
+NOTE Confidence: 0.85504156
+
+59617b7d-ba78-4a2e-ae82-e503df92d88c
+00:01:08.220 --> 00:01:09.785
+for Internet of Things Technologies.
+
+NOTE Confidence: 0.85504156
+
+a201ae5d-b19d-4541-9f17-f1606f830010
+00:01:09.790 --> 00:01:12.262
+In this example, a building information
+
+NOTE Confidence: 0.85504156
+
+ca4e0aa3-6546-45ae-95bb-d364b76e4626
+00:01:12.262 --> 00:01:14.912
+model provides precise geometry of a building
+
+NOTE Confidence: 0.85504156
+
+f29f59f9-68e2-4208-8b86-38334030a797
+00:01:14.912 --> 00:01:17.103
+which is superimposed on a mobile phones
+
+NOTE Confidence: 0.85504156
+
+41521ac8-5e98-41dc-bb33-e006d674d72b
+00:01:17.168 --> 00:01:19.548
+real time camera image of an environment.
+
+NOTE Confidence: 0.85504156
+
+34282883-a8b7-415e-89a4-eca6d04b8400
+00:01:19.550 --> 00:01:21.410
+Sensor data collected from the systems
+
+NOTE Confidence: 0.85504156
+
+aaed61bb-3707-49bb-a9a1-70be7107a167
+00:01:21.410 --> 00:01:23.390
+being shown can then be displayed,
+
+NOTE Confidence: 0.85504156
+
+8a2dcfc1-acce-4d34-b77f-db45c1b62536
+00:01:23.390 --> 00:01:24.538
+meaning that maintenance staff
+
+NOTE Confidence: 0.85504156
+
+d8892a2e-1b48-4f9e-b390-93214a23b59f
+00:01:24.538 --> 00:01:26.260
+no longer need to make invasive
+
+NOTE Confidence: 0.85504156
+
+f7a8a332-923d-479f-a55f-f947404ab80c
+00:01:26.312 --> 00:01:28.047
+inspections above ceilings to evaluate
+
+NOTE Confidence: 0.85504156
+
+a4c205ea-3abe-4391-9803-d8dfbd192a20
+00:01:28.047 --> 00:01:29.782
+the performance of building systems.
+
+NOTE Confidence: 0.8649734
+
+07af735f-3455-401a-a703-fa7a0daa091a
+00:01:34.610 --> 00:01:36.565
+Another common use case for
+
+NOTE Confidence: 0.8649734
+
+b300147d-c684-4538-8a33-4f36cceccda3
+00:01:36.565 --> 00:01:38.129
+Internet of Things Technologies
+
+NOTE Confidence: 0.8649734
+
+9519c703-efb7-4421-97ca-e8e5c01c6ea5
+00:01:38.129 --> 00:01:40.158
+is improved systems control.
+
+NOTE Confidence: 0.8649734
+
+b7e6ad38-6029-457c-806b-833962895414
+00:01:40.160 --> 00:01:42.370
+These use cases often require
+
+NOTE Confidence: 0.8649734
+
+f5e074a4-26a0-4cbf-904b-b0f30c7bf9d3
+00:01:42.370 --> 00:01:44.138
+measurements of specific variables
+
+NOTE Confidence: 0.8649734
+
+b2433ecf-4056-4bf7-a817-fabcc8a25b32
+00:01:44.138 --> 00:01:46.478
+in order to operate. For example,
+
+NOTE Confidence: 0.8649734
+
+eacba11e-8713-49c3-9a5e-22bf1f4644d7
+00:01:46.478 --> 00:01:49.310
+in the case of this Air Handling unit,
+
+NOTE Confidence: 0.8649734
+
+11bc6327-0b3d-4632-ad1b-e0ed02cf9fe5
+00:01:49.310 --> 00:01:51.080
+the supply air duct pressure
+
+NOTE Confidence: 0.8649734
+
+a9dbfd99-66b6-4a8e-8f50-0cfbd5fa5fea
+00:01:51.080 --> 00:01:52.496
+is monitored by controller.
+
+NOTE Confidence: 0.8649734
+
+951c624d-38c0-480e-9d0d-6cf9ef63b015
+00:01:52.500 --> 00:01:54.618
+That controller will use either proportional,
+
+NOTE Confidence: 0.8649734
+
+445f90ac-54e0-4b45-8b16-6bcf939adfc7
+00:01:54.620 --> 00:01:56.924
+integral or differential calculations to vary
+
+NOTE Confidence: 0.8649734
+
+aaf4e477-380d-4115-a0e2-8e8920add0dd
+00:01:56.924 --> 00:01:59.577
+the motor speed driving the supply air fan.
+
+NOTE Confidence: 0.8649734
+
+63d7dba2-0e40-49d8-b929-79e59087a75a
+00:01:59.580 --> 00:02:02.030
+For an inverter drive to
+
+NOTE Confidence: 0.8649734
+
+533416d0-8fda-4a85-9d78-bd71660b1949
+00:02:02.030 --> 00:02:03.990
+obtain a target value.
+
+NOTE Confidence: 0.8649734
+
+62f81380-9b2f-4ddc-b4f5-0024673f488c
+00:02:03.990 --> 00:02:06.573
+The speed of the return Air fan is varied
+
+NOTE Confidence: 0.8649734
+
+3d49b29c-e6dd-45c4-afdc-a592b49d0e47
+00:02:06.573 --> 00:02:08.493
+according to the difference in air
+
+NOTE Confidence: 0.8649734
+
+3c27d4b1-9924-49ca-93da-499656d4dbcc
+00:02:08.493 --> 00:02:10.427
+flow rates measured between the suction
+
+NOTE Confidence: 0.8649734
+
+f46cc163-b007-471c-b357-50799e7c8b47
+00:02:10.427 --> 00:02:12.827
+sides of the return and supply air fans.
+
+NOTE Confidence: 0.8649734
+
+e8501971-d0b8-41a5-b7e1-98bfda88ea23
+00:02:12.830 --> 00:02:14.660
+Machine learning can be trained
+
+NOTE Confidence: 0.8649734
+
+58ec23e8-6f09-4697-ac57-167276d891db
+00:02:14.660 --> 00:02:16.991
+on the data collected by these
+
+NOTE Confidence: 0.8649734
+
+22023a6e-7574-408f-bb02-48ca009a9290
+00:02:16.991 --> 00:02:19.166
+systems to identify control logic.
+
+NOTE Confidence: 0.8649734
+
+7d2142f2-8cf3-4c46-9883-7e5831c91043
+00:02:19.170 --> 00:02:21.100
+There's more efficient or satisfying
+
+NOTE Confidence: 0.8649734
+
+d609659b-e587-4c9d-ae4c-b001c13ad50b
+00:02:21.100 --> 00:02:23.030
+for users and optimizations then
+
+NOTE Confidence: 0.8649734
+
+4ff7125b-cc4c-4b91-b2ac-68ae90a4f0ae
+00:02:23.087 --> 00:02:24.707
+deployed to fill controllers.
+
+NOTE Confidence: 0.8458711
+
+2495ed3c-07d0-4e08-ab69-139537e20b01
+00:02:29.620 --> 00:02:31.724
+One other tip, who use case of Internet
+
+NOTE Confidence: 0.8458711
+
+a187ebc1-56ec-4f27-a077-587046a20d90
+00:02:31.724 --> 00:02:33.828
+of Things Technologies is the valuation
+
+NOTE Confidence: 0.8458711
+
+aee315c9-e63c-4b70-a89d-dff0332b7f64
+00:02:33.828 --> 00:02:35.733
+of business products and services.
+
+NOTE Confidence: 0.8458711
+
+0f98d475-f8e7-4e67-a9df-751fc6d582ca
+00:02:35.740 --> 00:02:37.605
+Internet of Things Technologies can
+
+NOTE Confidence: 0.8458711
+
+8cbc620c-a1ce-4e94-8266-a95a4cd636cc
+00:02:37.605 --> 00:02:39.470
+provide opportunity to collect rich,
+
+NOTE Confidence: 0.8458711
+
+60bf9364-73a3-47c3-9f22-49359e52ea02
+00:02:39.470 --> 00:02:40.883
+longitudinal contextual information
+
+NOTE Confidence: 0.8458711
+
+cd185d85-5da1-404c-919c-c01e6b041cc9
+00:02:40.883 --> 00:02:43.238
+about the customer and their
+
+NOTE Confidence: 0.8458711
+
+bdc06c0f-c14e-4fe1-b7e9-9962de5de66b
+00:02:43.238 --> 00:02:44.989
+interactions with the business.
+
+NOTE Confidence: 0.8458711
+
+9101eb9a-c47e-4cb1-81da-7d0f9ce2bda3
+00:02:44.990 --> 00:02:46.694
+By recording discrete emotions
+
+NOTE Confidence: 0.8458711
+
+85ea3b67-e7f6-420a-abb9-535bb3dc61bc
+00:02:46.694 --> 00:02:48.824
+and cognitive responses at each
+
+NOTE Confidence: 0.8458711
+
+3a92c97a-2a61-4eb2-ba17-a0332c6950a0
+00:02:48.824 --> 00:02:50.990
+customer touch point with a business,
+
+NOTE Confidence: 0.8458711
+
+8f48c54e-b102-45c8-a3ca-3a0c7a50fdf2
+00:02:50.990 --> 00:02:52.794
+meaningful insights into business
+
+NOTE Confidence: 0.8458711
+
+89463520-2e44-494c-aecd-147eed32854b
+00:02:52.794 --> 00:02:55.049
+performance can be identified and
+
+NOTE Confidence: 0.8458711
+
+8cacc345-0107-4a84-8c17-69053c07f1b9
+00:02:55.049 --> 00:02:57.390
+used to improve service provision.
+
+NOTE Confidence: 0.8458711
+
+3d866fed-14e0-43de-9636-3cd3d0f3486f
+00:02:57.390 --> 00:02:59.886
+A business touchpoint may involve the
+
+NOTE Confidence: 0.8458711
+
+9db2dbae-1d6b-4230-840d-dca418bb231b
+00:02:59.886 --> 00:03:02.050
+customer having direct or indirect
+
+NOTE Confidence: 0.8458711
+
+dcd7f139-c09d-463c-8772-14154cc4c6bf
+00:03:02.050 --> 00:03:04.624
+contact with one or more other
+
+NOTE Confidence: 0.8458711
+
+f4151e80-a21c-489e-a0f1-2bb04b9a3743
+00:03:04.624 --> 00:03:06.580
+businesses value creation elements.
+
+NOTE Confidence: 0.8458711
+
+0001fb0c-4d7d-4761-95ce-801c3f5bb4ca
+00:03:06.580 --> 00:03:09.080
+The anonymous Feedback Application is
+
+NOTE Confidence: 0.8458711
+
+7841d7cd-f653-4060-a438-457af966f6f3
+00:03:09.080 --> 00:03:13.043
+an example of one of these use cases.
+

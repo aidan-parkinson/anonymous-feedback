@@ -1,13 +1,10 @@
 import React from 'react';
-import * as fs from 'fs-web';
 
 import './form.css';
 import StarRating from '../affective-response/star-rating';
 import mqtt from 'mqtt';
 import { Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button'
-
-import macaddress from 'macaddress';
 
 var retain = {
   retain: true,
@@ -25,12 +22,6 @@ const textStyle = {
 };
 
 //const readFile = util.promisfy(fs.readFile);
-
-async function caCert() {
-  var caCert = await fs.readFile('/certs/learning-iot-ca.crt');
-  console.log(caCert);
-  return caCert;
-}
 
 class Form extends React.Component {
   constructor(props) {
@@ -53,24 +44,24 @@ class Form extends React.Component {
   };
 
   async componentDidMount() {
-    await caCert()
-    this.options = {
-        clientId: JSON.stringify(macaddress.networkInterfaces(), null, 2),
+    let caFile = await fetch('/certs/learning-iot-ca.crt').then(r => r.arrayBuffer())
+    var options = {
+        clientId: 'anonymous-feedback',
         // port: 8883,
         // host: '35.176.252.212',
         // key: KEY,
-        ca: await caCert,
+        ca: caFile,
         rejectUnauthorized: false
         // The CA list will be used to determine if server is authorized
         // protocol: 'mqtts'
     }
-    this.client = mqtt.connect("mqtts://mqtts.aidanparkinson.xyz:8883", await this.options);
-    console.log("connected flag  " + this.client.connected);
-    this.client.on("connect",function(){
-      console.log("connected  "+ this.client.connected);
+    var client = mqtt.connect("mqtts://mqtts.aidanparkinson.xyz:8883", options);
+    console.log("connected flag  " + client.connected);
+    client.on("connect",function(){
+      console.log("connected  "+ client.connected);
     })
     this.broadcastFeedback = () => {
-      this.client.publish(`anonymous-feedback/json`, JSON.stringify({likert_score: this.state.rating, description: this.state.description}), retain);
+      client.publish(`anonymous-feedback/json`, JSON.stringify({likert_score: this.state.rating, description: this.state.description}), retain);
       this.setState({ rating: null, description: null});
       window.location.reload(false);
     }
