@@ -4,7 +4,6 @@ import * as fs from 'fs-web';
 import './form.css';
 import StarRating from '../affective-response/star-rating';
 import mqtt from 'mqtt';
-import util from 'util';
 import { Row, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button'
 
@@ -28,23 +27,24 @@ const textStyle = {
 //const readFile = util.promisfy(fs.readFile);
 
 async function options() {
-  try {
-    const caCert = await fs.readFile('/certs/learning-iot-ca.crt');
-    console.log(caCert);
-    var options = {
-        clientId: JSON.stringify(macaddress.networkInterfaces(), null, 2),
-        // port: 8883,
-        // host: '35.176.252.212',
-        // key: KEY,
-        ca: await caCert,
-        rejectUnauthorized: false
-        // The CA list will be used to determine if server is authorized
-        // protocol: 'mqtts'
+  fs.readFile('/certs/learning-iot-ca.crt', function (err, data) {
+    if (err)
+      console.log(err);
+    else {
+      console.log(data);
+      var options = {
+          clientId: JSON.stringify(macaddress.networkInterfaces(), null, 2),
+          // port: 8883,
+          // host: '35.176.252.212',
+          // key: KEY,
+          ca: data,
+          rejectUnauthorized: false
+          // The CA list will be used to determine if server is authorized
+          // protocol: 'mqtts'
+      }
+      return options
     }
-    return options
-  } catch (e) {
-    console.log(e);
-  }
+  });
 }
 
 class Form extends React.Component {
