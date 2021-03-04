@@ -1,0 +1,90 @@
+WEBVTT
+
+NOTE duration:"00:00:37.4610000"
+
+NOTE language:en-us
+
+NOTE Confidence: 0.84634024
+
+e598cb8d-69f9-442d-863d-dfe22fc106ef
+00:00:00.000 --> 00:00:02.996
+If we look again at our generic
+
+NOTE Confidence: 0.84634024
+
+bdd2f922-7bd6-4d77-b601-ee87b4a8cdc3
+00:00:02.996 --> 00:00:05.829
+Internet of Things technology stack,
+
+NOTE Confidence: 0.84634024
+
+5f2ae9c1-34ff-456c-bdad-58e92b0d7f58
+00:00:05.830 --> 00:00:07.298
+this module largely concerns
+
+NOTE Confidence: 0.84634024
+
+226d39ca-5141-4fbf-9f48-ad3a88a8530b
+00:00:07.298 --> 00:00:09.133
+the server and client lays.
+
+NOTE Confidence: 0.85078776
+
+de192c2e-869e-4915-8566-aa2864b4191e
+00:00:14.950 --> 00:00:16.700
+Looking at our organization chart,
+
+NOTE Confidence: 0.85078776
+
+78b2ba39-763f-486b-ab21-917ddb11f2f6
+00:00:16.700 --> 00:00:19.548
+we find that the client and server layers
+
+NOTE Confidence: 0.85078776
+
+d7ef5396-b82a-4694-9d60-bd55a20499b4
+00:00:19.548 --> 00:00:22.298
+are the domain of the dev OPS team.
+
+NOTE Confidence: 0.85078776
+
+de5eeb02-4ac5-4767-a366-8c39ff6fe087
+00:00:22.300 --> 00:00:24.046
+The Dev OPS team manage and
+
+NOTE Confidence: 0.85078776
+
+259e7000-0b2e-4082-83a8-a4180d0fbab3
+00:00:24.046 --> 00:00:25.753
+administer solutions for web services
+
+NOTE Confidence: 0.85078776
+
+794b1109-d6fc-4ecd-ae70-f1e90be6de7e
+00:00:25.753 --> 00:00:27.199
+provision and configuration.
+
+NOTE Confidence: 0.8517518
+
+7903a0e0-ec28-46ad-94bc-76e2c18729d9
+00:00:29.420 --> 00:00:31.496
+Software development agencies contribute
+
+NOTE Confidence: 0.8517518
+
+1d63652a-a724-466b-ad52-66ef42d5b9c6
+00:00:31.496 --> 00:00:33.053
+complementary client applications
+
+NOTE Confidence: 0.8517518
+
+9aaaa439-e26c-4ba8-892f-68b74473515e
+00:00:33.053 --> 00:00:35.783
+and usually have a strong focus on
+
+NOTE Confidence: 0.8517518
+
+5c54cc24-0f84-4684-a9fd-b2a715b8302c
+00:00:35.783 --> 00:00:37.457
+what is often called front end.
+
