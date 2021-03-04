@@ -45,18 +45,17 @@ class Form extends React.Component {
   };
 
   render() {
-    fs.readFile('/certs/learning-iot-ca.crt', (err, caFile) => {
+    fs.readFile('/certs/learning-iot-ca.crt', (err, data) => {
       if (err) {
         console.error(err)
-        return
       }
-    }).then(caFile => {
+    }).then(data => {
       let { options } = {
           clientId: JSON.stringify(macaddress.networkInterfaces(), null, 2),
           // port: 8883,
           // host: '35.176.252.212',
           // key: KEY,
-          ca: caFile,
+          ca: data,
           rejectUnauthorized: false
           // The CA list will be used to determine if server is authorized
           // protocol: 'mqtts'
