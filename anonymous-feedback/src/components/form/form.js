@@ -26,25 +26,10 @@ const textStyle = {
 
 //const readFile = util.promisfy(fs.readFile);
 
-async function options() {
-  fs.readFile('/certs/learning-iot-ca.crt', function (err, data) {
-    if (err)
-      console.log(err);
-    else {
-      console.log(data);
-      var options = {
-          clientId: JSON.stringify(macaddress.networkInterfaces(), null, 2),
-          // port: 8883,
-          // host: '35.176.252.212',
-          // key: KEY,
-          ca: data,
-          rejectUnauthorized: false
-          // The CA list will be used to determine if server is authorized
-          // protocol: 'mqtts'
-      }
-      return options
-    }
-  });
+async function caCert() {
+  var caCert = await fs.readFile('/certs/learning-iot-ca.crt');
+  console.log(caCert);
+  return caCert;
 }
 
 class Form extends React.Component {
@@ -68,7 +53,17 @@ class Form extends React.Component {
   };
 
   async componentDidMount() {
-    this.options = await options();
+    await caCert()
+    this.options = {
+        clientId: JSON.stringify(macaddress.networkInterfaces(), null, 2),
+        // port: 8883,
+        // host: '35.176.252.212',
+        // key: KEY,
+        ca: await caCert,
+        rejectUnauthorized: false
+        // The CA list will be used to determine if server is authorized
+        // protocol: 'mqtts'
+    }
     this.client = mqtt.connect("mqtts://mqtts.aidanparkinson.xyz:8883", await this.options);
     console.log("connected flag  " + this.client.connected);
     this.client.on("connect",function(){
