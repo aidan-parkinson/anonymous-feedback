@@ -45,7 +45,7 @@ class Form extends React.Component {
   };
 
   render() {
-    fs.readFile('/etc/ssl/certs/learning-iot-ca.crt', (err, caFile) => {
+    fs.readFile('/certs/learning-iot-ca.crt', (err, caFile) => {
       if (err) {
         console.error(err)
         return
