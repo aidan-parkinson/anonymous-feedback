@@ -1,0 +1,192 @@
+WEBVTT
+
+NOTE duration:"00:02:21.9090000"
+
+NOTE language:en-us
+
+NOTE Confidence: 0.7805112
+
+e8e552b6-5e69-4c76-8a7e-d04d0899cca4
+00:00:00.000 --> 00:00:03.199
+I can now view the results of
+
+NOTE Confidence: 0.7805112
+
+c9101700-a700-472b-8644-fcafd2c46eb6
+00:00:03.199 --> 00:00:05.183
+the published information in
+
+NOTE Confidence: 0.7805112
+
+2d7ac734-bd6a-47b1-a569-940b8d277e2e
+00:00:05.183 --> 00:00:07.279
+the Cabana client application
+
+NOTE Confidence: 0.7805112
+
+ae6133c2-6d71-4d8f-b605-af5bd052e72f
+00:00:07.279 --> 00:00:09.899
+available at Cabana Dot Aiden,
+
+NOTE Confidence: 0.7805112
+
+91fadd6d-3e19-477f-a256-1b90bcbf753b
+00:00:09.900 --> 00:00:12.170
+Parkinson Dot XYZ Colon 5601.
+
+NOTE Confidence: 0.8785984
+
+9468457b-779f-411f-a40a-c7e1a5e0f35a
+00:00:25.490 --> 00:00:29.599
+To do this, I use the Discover
+
+NOTE Confidence: 0.8785984
+
+40fcf343-68c4-4235-804b-06e4b8063de4
+00:00:29.599 --> 00:00:31.939
+feature. Which is sad.
+
+NOTE Confidence: 0.8197172
+
+f8958e26-1c65-4c61-8446-fbb974bade67
+00:00:40.040 --> 00:00:45.598
+And I search for MQTT topic keyword.
+
+NOTE Confidence: 0.79812649
+
+4c1a337b-21c0-4346-89fa-01cf31ba4c8e
+00:00:48.480 --> 00:00:50.680
+That equals.
+
+NOTE Confidence: 0.6869913
+
+faf11e0e-199d-49ea-96c2-77c9ba62f5e6
+00:00:53.190 --> 00:00:55.046
+It's a barely message
+
+NOTE Confidence: 0.6869913
+
+6dfc484b-625b-4b64-8680-8d74cafeeca8
+00:00:55.046 --> 00:00:56.438
+Bluetooth lending message.
+
+NOTE Confidence: 0.6869913
+
+ad184e42-8419-40c1-b1be-13c7b4d01cf6
+00:00:56.440 --> 00:01:01.490
+So if I put colon. The.
+
+NOTE Confidence: 0.6869913
+
+dfea1592-937a-437f-b685-13f751127eb0
+00:01:01.490 --> 00:01:05.771
+As it's string BLE. Slash.
+
+NOTE Confidence: 0.6869913
+
+1f6d4e91-9494-4972-b12d-8de01daedae5
+00:01:05.771 --> 00:01:10.037
+Now. In the in my Raspberry
+
+NOTE Confidence: 0.6869913
+
+32ff9dc9-0543-47ae-9803-f4c700e3b9f1
+00:01:10.037 --> 00:01:14.550
+Pi terminal I can see that a.
+
+NOTE Confidence: 0.6869913
+
+10d3f263-a38c-433e-92a0-521f2ffbd915
+00:01:14.550 --> 00:01:17.958
+MAC address being returned there is.
+
+NOTE Confidence: 0.6869913
+
+08fd0843-0e01-48b7-8fb4-021154c9aa0b
+00:01:17.960 --> 00:01:22.800
+C8. Colon 8-9
+
+NOTE Confidence: 0.79742245
+
+88a20872-9fe7-4ede-99d4-4e724ec007df
+00:01:24.880 --> 00:01:32.578
+C8. So C869CD2CO238.
+
+NOTE Confidence: 0.79742245
+
+0ec11541-5004-4315-9302-d7081b63d5c2
+00:01:32.580 --> 00:01:35.084
+And what I want to look at is
+
+NOTE Confidence: 0.79742245
+
+5da62a9b-b708-4cc8-bdaf-2ed77a012182
+00:01:35.084 --> 00:01:37.238
+the Jason Play load of that.
+
+NOTE Confidence: 0.79742245
+
+cf6e0df5-6b7a-4eba-92f5-bfdf8fd3cbb0
+00:01:37.240 --> 00:01:41.710
+So this one here. And I can now
+
+NOTE Confidence: 0.79742245
+
+802817f2-65a4-4231-ac82-49e7d2a9db66
+00:01:41.710 --> 00:01:44.740
+update my Dark dashboard to filter.
+
+NOTE Confidence: 0.79742245
+
+6e0f9505-f547-4b68-bb61-42bfca05897c
+00:01:44.740 --> 00:01:49.094
+For those messages for an messages with.
+
+NOTE Confidence: 0.79742245
+
+74369110-78d7-49c0-ad20-b63e827320bd
+00:01:49.100 --> 00:01:52.540
+That empty tea topic keyword.
+
+NOTE Confidence: 0.79742245
+
+d5947a13-5820-4aa3-bd65-557ef774b642
+00:01:52.540 --> 00:01:56.980
+If I look at my latest result which was on.
+
+NOTE Confidence: 0.79742245
+
+f69900c9-5685-496e-ba1f-1fee642ebfb4
+00:01:56.980 --> 00:02:02.840
+February 18th Let me Clock.
+
+NOTE Confidence: 0.79742245
+
+b28591b6-20d7-4592-aa50-b47acebc676d
+00:02:02.840 --> 00:02:08.176
+I can then see the message returned by.
+
+NOTE Confidence: 0.79742245
+
+8b6a97b4-50c3-45f5-b57e-173543adaa24
+00:02:08.180 --> 00:02:10.275
+That barely broadcast device and
+
+NOTE Confidence: 0.79742245
+
+7ae6eab6-ef8f-494f-a684-1109605a0d41
+00:02:10.275 --> 00:02:12.886
+it and typically barely is that
+
+NOTE Confidence: 0.79742245
+
+09c34985-61a5-4866-b1b3-b07187cab720
+00:02:12.886 --> 00:02:15.076
+it provides a encrypted message,
+
+NOTE Confidence: 0.79742245
+
+c66195f4-943c-43a1-8047-9e4cae096f7b
+00:02:15.080 --> 00:02:19.390
+which is here in which I think is in binary.
+

@@ -1,0 +1,162 @@
+WEBVTT
+
+NOTE duration:"00:01:17.3970000"
+
+NOTE language:en-us
+
+NOTE Confidence: 0.8084395
+
+261a16a5-df41-4e25-8c8c-9a4df5dfcad5
+00:00:00.000 --> 00:00:03.210
+Our next practical activity is to
+
+NOTE Confidence: 0.8084395
+
+d74c604c-b429-4a90-9f44-85cf6a4f3653
+00:00:03.210 --> 00:00:06.945
+play around with the sensor for the
+
+NOTE Confidence: 0.8084395
+
+200a26e0-398c-4590-8597-868b2064fb01
+00:00:06.945 --> 00:00:09.921
+Raspberry Pi in order to reflect
+
+NOTE Confidence: 0.8084395
+
+388310a9-a168-414e-8409-de75ded3dcf6
+00:00:09.921 --> 00:00:13.553
+on how sensors can be connected to
+
+NOTE Confidence: 0.8084395
+
+5d55b8f8-80a9-4fd0-88bc-8d6197070fee
+00:00:13.553 --> 00:00:17.100
+the Internet and be provided with
+
+NOTE Confidence: 0.8084395
+
+b392046b-01eb-43ed-8205-54b1c31461e1
+00:00:17.100 --> 00:00:19.620
+Internet of Things functionality.
+
+NOTE Confidence: 0.8084395
+
+a4047c3d-9347-4466-b03f-c2caef74acc3
+00:00:19.620 --> 00:00:23.404
+I'm so here we're using a cheap DHT
+
+NOTE Confidence: 0.8084395
+
+2235abd8-3e93-40bf-9d1c-0215e516c602
+00:00:23.404 --> 00:00:27.035
+11 sensor for the rosary prides so
+
+NOTE Confidence: 0.8084395
+
+e83f5ac1-57f4-4bbb-9ac8-f07197f6b2f8
+00:00:27.035 --> 00:00:30.645
+available for just a few pounds an
+
+NOTE Confidence: 0.8084395
+
+06d576b3-145e-4eef-8318-54c76b6d6812
+00:00:30.645 --> 00:00:34.341
+and we are hard wiring that to the
+
+NOTE Confidence: 0.8084395
+
+7f56de27-5737-441b-b42a-6f61de79f63c
+00:00:34.350 --> 00:00:38.278
+GP IO pins of a Raspberry Pi here.
+
+NOTE Confidence: 0.8084395
+
+02a3be75-9444-4cbb-be98-0accc3285d0a
+00:00:38.280 --> 00:00:42.256
+To do this you will need to follow
+
+NOTE Confidence: 0.8084395
+
+d2434148-c9c5-4e35-b29d-f9fd791ca3ce
+00:00:42.256 --> 00:00:44.440
+a video tutorial.
+
+NOTE Confidence: 0.8084395
+
+8b1b4d20-d324-4446-ab1e-806785b452ad
+00:00:44.440 --> 00:00:46.240
+On YouTube, which is available,
+
+NOTE Confidence: 0.8084395
+
+23fcaf16-7339-44f6-a369-51bc3ab333a9
+00:00:46.240 --> 00:00:48.538
+which is where link which is
+
+NOTE Confidence: 0.8084395
+
+23304e78-1774-42da-aa18-96727f2282df
+00:00:48.538 --> 00:00:51.090
+provided on this web application.
+
+NOTE Confidence: 0.8084395
+
+9e91298e-57ff-41dd-9f0a-4b65891a8181
+00:00:51.090 --> 00:00:53.897
+And once you get to the point
+
+NOTE Confidence: 0.8084395
+
+6c2a542f-e24b-438b-a930-7cc26989db63
+00:00:53.897 --> 00:00:57.372
+where the light turns on for this
+
+NOTE Confidence: 0.8084395
+
+b67dd38a-95a1-44cb-bae3-53e3d6e0eaaa
+00:00:57.372 --> 00:01:00.092
+device and it's been successfully
+
+NOTE Confidence: 0.8084395
+
+27f47801-ffca-4f37-b694-932fc32d9e6b
+00:01:00.092 --> 00:01:01.978
+hardwired to the to the.
+
+NOTE Confidence: 0.8084395
+
+95246fc4-6723-440b-9749-fcbe4d1038d9
+00:01:01.980 --> 00:01:03.090
+Raspberry Pi.
+
+NOTE Confidence: 0.8723268
+
+54053022-8649-4b09-855e-2ad4effd3a4e
+00:01:06.060 --> 00:01:08.202
+I would move on to the to the next
+
+NOTE Confidence: 0.8723268
+
+f6d476a2-ce57-4315-9b52-450680caea2e
+00:01:08.202 --> 00:01:10.499
+video tutorial which will be around
+
+NOTE Confidence: 0.8723268
+
+e8982fb7-27d6-4bc3-8693-5f6828792e95
+00:01:10.499 --> 00:01:12.494
+running applications on the Raspberry
+
+NOTE Confidence: 0.8723268
+
+c36ac2f5-e527-472f-ac12-a854dd14db94
+00:01:12.558 --> 00:01:14.970
+Pi so that we can get some sort of
+
+NOTE Confidence: 0.8723268
+
+97061f95-19ec-4ba6-9560-5e8bd61a0c74
+00:01:14.970 --> 00:01:17.395
+meaningful information out of the sensor.
+
