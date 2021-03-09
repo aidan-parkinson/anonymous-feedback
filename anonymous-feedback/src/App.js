@@ -16,31 +16,54 @@ function App() {
   };
 
   const divStyle = {
-    justifyContent: "center",
-    alignItems: "center",
+    background: "#F6FAF8",
+    padding: "10px",
+    width: "100%",
+    height: "100%",
+    overflowX: "hidden",
     display: "flex",
-    background: "#F6FAF8"
+    justifyContent: "centre"
   };
+
+  const listStyle = {
+    whiteSpace: "nowrap"
+  }
+
+  const containerStyle = {
+    margin: "auto"
+  }
 
   return (
     <Router>
       <div style={divStyle}>
-        <div>
+        <div style={containerStyle}>
           <header style={headerStyle}>
           </header>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light nav-fill">
-              <nav class="navbar navbar-light bg-light">
+          <div>
+            <nav className="navbar navbar-expand navbar-light bg-light">
                 <span class="navbar-brand mb-0 h1">Learning IoT</span>
-              </nav>
-              <ul className="navbar-nav mr-auto">
-                <li><Link to={'/'} className="nav-link">introduction</Link></li>
-                <li><Link to={'/practical'} className="nav-link">practical</Link></li>
-                <li><Link to={'/systems-integration'} className="nav-link">systems integration</Link></li>
-                <li><Link to={'/data'} className="nav-link">data</Link></li>
-                <li><Link to={'/studio'} className="nav-link">studio</Link></li>
-                <li><Link to={'/evaluation'} className="nav-link">evaluation</Link></li>
-              </ul>
-          </nav>
+                <ul className="navbar-nav" style={listStyle}>
+                  <li class="nav-item">
+                    <Link to="/" class="nav-link">Introduction</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/practical" class="nav-link">Practical</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/systems-integration" class="nav-link">Systems Integration</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/data" class="nav-link">Data</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/studio" class="nav-link">Studio</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link to="/evaluation" class="nav-link">Evaluation</Link>
+                  </li>
+                </ul>
+            </nav>
+          </div>
           <Switch>
               <Route exact path='/' component={Introduction} />
               <Route exact path='/practical' component={Practical} />
