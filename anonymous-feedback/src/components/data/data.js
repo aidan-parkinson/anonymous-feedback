@@ -8,7 +8,7 @@ import { Row, Nav, Col } from 'react-bootstrap';
 
 const divStyle = {
   margin : "20px",
-  fontSize: "0.8rem"
+  fontSize: "0.8rem",
 };
 
 const linkStyle = {
@@ -17,11 +17,11 @@ const linkStyle = {
 };
 
 const parStyle = {
-  width: "800px",
   color: "#2d2d2d",
   textAlign: "justify",
-  margin: "30px",
-  fontSize: "0.8rem"
+  margin: "20px",
+  fontSize: "0.8rem",
+  maxWidth: "800px"
 };
 
 class Data extends Component {
