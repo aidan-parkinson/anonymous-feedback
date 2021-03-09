@@ -33,17 +33,13 @@ function App() {
     margin: "auto"
   }
 
-  const navStyle = {
-    width: "800px"
-  }
-
   return (
     <Router>
       <div style={divStyle}>
         <div style={containerStyle}>
           <header style={headerStyle}>
           </header>
-          <div style={navStyle}>
+          <div>
             <nav className="navbar navbar-expand navbar-light bg-light">
                 <span class="navbar-brand mb-0 h1">Learning IoT</span>
                 <ul className="navbar-nav" style={listStyle}>
