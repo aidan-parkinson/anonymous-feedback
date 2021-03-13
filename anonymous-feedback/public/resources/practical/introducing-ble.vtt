@@ -1,0 +1,134 @@
+WEBVTT
+
+NOTE duration:"00:00:59.0960000"
+
+NOTE language:en-us
+
+NOTE Confidence: 0.8693904
+
+3227ecc4-0db0-45ea-bbd8-59c9da5169fb
+00:00:00.050 --> 00:00:03.878
+The function of this learning
+IoT platform is an ability to
+
+NOTE Confidence: 0.8693904
+
+1f0d3bca-d8b8-4fad-84c3-59ff84b6d800
+00:00:03.878 --> 00:00:06.314
+scan and collect broadcast
+information published by
+
+NOTE Confidence: 0.8693904
+
+173581fa-8f86-4c9f-ab35-d17e2f9a851a
+00:00:06.314 --> 00:00:07.706
+Bluetooth low energy devices.
+
+NOTE Confidence: 0.887454
+
+30756a63-e8de-4bf4-8a57-c26cfb74c49d
+00:00:08.910 --> 00:00:12.483
+Bluetooth low energy devices
+typically operate over a logical
+
+NOTE Confidence: 0.887454
+
+7f2ce75e-7605-4859-a250-7fc9ea2a1155
+00:00:12.483 --> 00:00:14.071
+link control, an adaptation
+
+NOTE Confidence: 0.83180994
+
+d8c192e0-3d2b-4053-ae2b-e2e8c6ca7eb4
+00:00:14.071 --> 00:00:17.747
+protocol. There are various
+different frame types that
+
+NOTE Confidence: 0.83180994
+
+28147be8-5acd-472b-838b-7259dea72e21
+00:00:17.747 --> 00:00:21.086
+define how broadcast messages
+are organized. Apple I, beacon
+
+NOTE Confidence: 0.83180994
+
+01b369dc-11af-4b61-aee2-cec23d57fa96
+00:00:21.086 --> 00:00:24.425
+and Google. Etta stone frame
+types are very common.
+
+NOTE Confidence: 0.8612163
+
+5d172317-e0c5-46ae-abe9-a2df7c33cea2
+00:00:25.620 --> 00:00:28.923
+Bluetooth low energy devices
+may have on board sensors
+
+NOTE Confidence: 0.8612163
+
+2f50f073-6fb2-4a8d-9cfb-b327d893ee72
+00:00:28.923 --> 00:00:31.492
+with Telemetry included in
+the messages published.
+
+NOTE Confidence: 0.83069015
+
+618fdf63-b838-4905-b9b0-c43101e176d4
+00:00:32.520 --> 00:00:37.144
+Here. Is an example of a
+kontakt, IO, Bluetooth low
+
+NOTE Confidence: 0.83069015
+
+05fbd41b-2e64-4263-9337-fc14e6c6a471
+00:00:37.144 --> 00:00:40.528
+energy beacon which broadcast
+sensor readings of dry bulb
+
+NOTE Confidence: 0.83069015
+
+074ffd5e-1152-4fd8-914a-e1b41e69c4e9
+00:00:40.528 --> 00:00:41.656
+temperature and acceleration.
+
+NOTE Confidence: 0.7115463
+
+cf5943b6-2f0a-4cf0-ba7b-40c4c23b64a4
+00:00:42.630 --> 00:00:45.192
+The device supports I
+Beacon, Eddystone and
+
+NOTE Confidence: 0.7115463
+
+23a5d952-5c4b-48ff-9952-9080e61b838a
+00:00:45.192 --> 00:00:46.656
+Kontakt IO frame types.
+
+NOTE Confidence: 0.90148795
+
+59ec67ba-ab9d-46a2-b5fd-d7e82606a99d
+00:00:48.110 --> 00:00:51.575
+Bluetooth low energy devices
+typically do not use Internet
+
+NOTE Confidence: 0.90148795
+
+307218d8-5133-4513-aaec-cd91fee2f0a2
+00:00:51.575 --> 00:00:52.730
+protocols to communicate.
+
+NOTE Confidence: 0.8873018
+
+bd039af3-1e14-451c-a647-a66563ac835b
+00:00:53.450 --> 00:00:56.840
+Therefore we need to set
+up a gateway device to
+
+NOTE Confidence: 0.8873018
+
+ad3879ce-cbdb-48ed-8864-13f149577de5
+00:00:56.840 --> 00:00:58.874
+collect the information
+these devices publish.
+

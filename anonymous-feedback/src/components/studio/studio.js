@@ -11,6 +11,11 @@ const divStyle = {
   fontSize: "0.8rem"
 };
 
+const linkStyle = {
+  color: "#2d2d2d",
+  fontSize: "0.8rem"
+};
+
 const parStyle = {
   color: "#2d2d2d",
   textAlign: "justify",
@@ -69,6 +74,13 @@ class Studio extends Component {
               </Col>
             </Row>
           </Tab.Container>
+        </div>
+        <div className="Links" style={divStyle}>
+          <h2 class="navbar-brand mb-0 h1">Web links</h2>
+          <br />
+          <a href = "http://resources-learning-iot.aidanparkinson.xyz/studio/opportunities.ods"  style={linkStyle}>
+            Opportunity  matrix
+          </a>
         </div>
         <div style={divStyle}>
           <Form/>
