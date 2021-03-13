@@ -52,19 +52,19 @@ class Introduction extends Component {
                 <Tab.Content>
                   <Tab.Pane eventKey="second">
                     <video controls width="550">
-                      <source src="http://resources-learning-iot.aidanparkinson.xyz/introduction/aidan.mp4" type="video/mp4"/>
+                      <source src="/resources/introduction/aidan.mp4" type="video/mp4"/>
                       <track src="/resources/introduction/aidan.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="third">
                     <video controls width="550">
-                      <source src="http://resources-learning-iot.aidanparkinson.xyz/introduction/platform-business.mp4" type="video/mp4"/>
+                      <source src="/resources/introduction/platform-business.mp4" type="video/mp4"/>
                       <track src="/resources/introduction/platform-business.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                   <Tab.Pane eventKey="fourth" placeholder="loading...">
                     <video controls width="550">
-                      <source src="http://resources-learning-iot.aidanparkinson.xyz/introduction/open-cases.mp4" type="video/mp4"/>
+                      <source src="/resources/introduction/open-cases.mp4" type="video/mp4"/>
                       <track src="/resources/introduction/open-cases.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>

@@ -11,6 +11,11 @@ const divStyle = {
   fontSize: "0.8rem"
 };
 
+const linkStyle = {
+  color: "#2d2d2d",
+  fontSize: "0.8rem"
+};
+
 const parStyle = {
   color: "#2d2d2d",
   textAlign: "justify",
@@ -51,24 +56,31 @@ class Studio extends Component {
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
                     <video controls width="550">
-                      <source src="http://resources-learning-iot.aidanparkinson.xyz/studio/studio-activity.mp4" type="video/mp4"/>
+                      <source src="/resources/studio/studio-activity.mp4" type="video/mp4"/>
                       <track src="/resources/studio/studio-activity.vtt" label="English auto-captions" kind="captions" srclang="en" default/>
                     </video>
                   </Tab.Pane>
                 </Tab.Content>
                 <Tab.Content>
                   <Tab.Pane eventKey="second">
-                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/studio/studio-city-example.pdf" title="city-example" height="350" />
+                    <iframe controls width="550" src="/resources/studio/studio-city-example.pdf" title="city-example" height="350" />
                   </Tab.Pane>
                 </Tab.Content>
                 <Tab.Content>
                   <Tab.Pane eventKey="third">
-                    <iframe controls width="550" src="http://resources-learning-iot.aidanparkinson.xyz/studio/studio-manufacturing-example.pdf" title="manufacturing-city-example" height="350" />
+                    <iframe controls width="550" src="/resources/studio/studio-manufacturing-example.pdf" title="manufacturing-city-example" height="350" />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
             </Row>
           </Tab.Container>
+        </div>
+        <div className="Links" style={divStyle}>
+          <h2 class="navbar-brand mb-0 h1">Web links</h2>
+          <br />
+          <a href = "/resources/studio/opportunities.ods"  style={linkStyle}>
+            Opportunity  matrix
+          </a>
         </div>
         <div style={divStyle}>
           <Form/>

@@ -1,0 +1,468 @@
+WEBVTT
+
+NOTE duration:"00:03:03.1470000"
+
+NOTE language:en-us
+
+NOTE Confidence: 0.8873404
+
+e9f61873-8341-4dc6-b969-b7893e89402f
+00:00:02.230 --> 00:00:05.334
+So how can we design and manage field
+
+NOTE Confidence: 0.8873404
+
+6ec03476-3401-45d8-9cc4-ec797acb5a95
+00:00:05.334 --> 00:00:08.458
+devices so that we minimize vulnerabilities
+
+NOTE Confidence: 0.8873404
+
+83c70fff-e689-4f88-806f-ef36f979ae8f
+00:00:08.458 --> 00:00:11.288
+when integrating with the web?
+
+NOTE Confidence: 0.8873404
+
+cbd83544-eb25-438e-a847-4c21f7e86785
+00:00:11.290 --> 00:00:14.600
+Here are a few recommendations.
+
+NOTE Confidence: 0.8873404
+
+0bbd4040-a489-4223-a502-68b51503e61a
+00:00:14.600 --> 00:00:17.114
+Try to contain all device dependencies
+
+NOTE Confidence: 0.8873404
+
+cf80e46a-8577-4ece-bef4-eb769093ac57
+00:00:17.114 --> 00:00:20.068
+of a subsystem on a single subnet.
+
+NOTE Confidence: 0.8873404
+
+e5d4164f-28ba-48ec-a456-6317b1802ed5
+00:00:20.070 --> 00:00:23.454
+In doing so, devices will not have to
+
+NOTE Confidence: 0.8873404
+
+52a2e08a-b6dd-4c53-a574-e4a442d0c5ed
+00:00:23.454 --> 00:00:25.314
+communicate publicly over unsecured
+
+NOTE Confidence: 0.8873404
+
+85c29753-2dac-4cde-a224-0463acbb79d9
+00:00:25.314 --> 00:00:27.659
+protocols for systems to work.
+
+NOTE Confidence: 0.8873404
+
+07ac1db5-e9f2-45be-a8bc-1037f41d1bee
+00:00:27.660 --> 00:00:30.025
+Only allow incoming traffic from
+
+NOTE Confidence: 0.8873404
+
+bb2b73a5-5947-43a7-af01-4d6bd6b43118
+00:00:30.025 --> 00:00:32.390
+trusted public IP addresses by
+
+NOTE Confidence: 0.8873404
+
+be6d0a37-41ad-4c50-8d4f-7d0defd12542
+00:00:32.466 --> 00:00:35.318
+implementing strict firewall policy's.
+
+NOTE Confidence: 0.8873404
+
+914c6f0e-7804-40d1-9817-d6abf753b077
+00:00:35.320 --> 00:00:37.834
+Ensure all devices meet minimum security
+
+NOTE Confidence: 0.8873404
+
+c9a07b7a-5eea-4c54-9483-f0202a204101
+00:00:37.834 --> 00:00:41.118
+standards so that the risk of them being
+
+NOTE Confidence: 0.8873404
+
+e981d27a-03d4-4351-b13f-40f15ecaf209
+00:00:41.118 --> 00:00:43.428
+compromised and becoming a security or
+
+NOTE Confidence: 0.8873404
+
+f350dcf2-837d-4ed7-980f-60fb0be16ce1
+00:00:43.497 --> 00:00:45.927
+worse operational risk is minimized.
+
+NOTE Confidence: 0.8873404
+
+847d9f22-4380-4808-b234-51b03e791d82
+00:00:45.930 --> 00:00:47.592
+If you are unaware of all
+
+NOTE Confidence: 0.8873404
+
+129160c1-d99e-4432-8336-627a50daa67e
+00:00:47.592 --> 00:00:49.080
+protocols that devices are using,
+
+NOTE Confidence: 0.8873404
+
+3ff24263-4156-459d-b424-1fe2c6a79fdf
+00:00:49.080 --> 00:00:51.366
+it is impossible to manage them.
+
+NOTE Confidence: 0.8873404
+
+2553fbcd-0031-4a95-b8ab-a7418a2aae3c
+00:00:51.370 --> 00:00:51.808
+Therefore,
+
+NOTE Confidence: 0.8873404
+
+9e3f4d5e-4606-4df2-9244-53e0c62759e8
+00:00:51.808 --> 00:00:54.436
+it is important to ensure devices
+
+NOTE Confidence: 0.8873404
+
+deb37b67-6021-44be-8fe1-7734f46eef73
+00:00:54.436 --> 00:00:56.332
+communicate only over authorized
+
+NOTE Confidence: 0.8873404
+
+298e7473-07a1-4ce2-bac9-b7ffdc7df0af
+00:00:56.332 --> 00:00:58.877
+protocols that are well understood.
+
+NOTE Confidence: 0.8873404
+
+e8e36d5f-d3c2-4093-8dfa-9ff40828ee41
+00:00:58.880 --> 00:01:01.106
+Test devices repeatedly to ensure compliance
+
+NOTE Confidence: 0.8873404
+
+d84d76dc-216e-41c2-bd34-0bbf69e7fbee
+00:01:01.106 --> 00:01:03.180
+with security and network standards.
+
+NOTE Confidence: 0.8873404
+
+451788f5-decd-4725-9d0d-1eeb8c1a62d1
+00:01:03.180 --> 00:01:04.308
+In doing so,
+
+NOTE Confidence: 0.8873404
+
+c5f0a5a8-d8bc-43b2-bcce-2c95f8283111
+00:01:04.308 --> 00:01:06.564
+changes in device status can be
+
+NOTE Confidence: 0.8873404
+
+96325a4e-8560-4229-a738-1b5567cbdde9
+00:01:06.564 --> 00:01:08.660
+identified and properly acted upon.
+
+NOTE Confidence: 0.85947716
+
+61d0a9a9-0670-4c45-a4c6-e55fad5247cc
+00:01:15.310 --> 00:01:18.075
+This is an example testing flow for
+
+NOTE Confidence: 0.85947716
+
+13e65ee6-2585-440b-b415-5be06090bd47
+00:01:18.075 --> 00:01:20.650
+a complex Internet of Things project.
+
+NOTE Confidence: 0.85947716
+
+3dd89047-5476-4862-a0e3-44a7379239e8
+00:01:20.650 --> 00:01:23.050
+Testing takes place throughout
+
+NOTE Confidence: 0.85947716
+
+b075dada-2c3a-4cea-9c29-6c09a1f7206c
+00:01:23.050 --> 00:01:24.850
+the device lifecycle.
+
+NOTE Confidence: 0.85947716
+
+754af2f3-e000-4fe5-9474-8fc4a260d2ba
+00:01:24.850 --> 00:01:26.752
+Initially, devices undergo
+
+NOTE Confidence: 0.85947716
+
+60cf85f5-cbc2-40e8-96b2-d4018cf84ba0
+00:01:26.752 --> 00:01:29.922
+automated tests to qualify for
+
+NOTE Confidence: 0.85947716
+
+ec4f8d65-fdef-4724-9b36-5dd601658e5d
+00:01:29.922 --> 00:01:32.920
+selection as system components.
+
+NOTE Confidence: 0.85947716
+
+31b348f9-22d4-4a74-a317-3b6d80680ac7
+00:01:32.920 --> 00:01:35.476
+Each system then undergoes a factory
+
+NOTE Confidence: 0.85947716
+
+a2327235-ea2d-40e0-b355-9cb33c7b80a1
+00:01:35.476 --> 00:01:38.923
+acceptance test and a test on site as
+
+NOTE Confidence: 0.85947716
+
+1ec3253b-b42e-467a-b612-3db14faf0a8f
+00:01:38.923 --> 00:01:41.003
+part of production network setting.
+
+NOTE Confidence: 0.85947716
+
+c72a3d4e-08a6-48ba-9f56-0b60b9688476
+00:01:41.010 --> 00:01:43.326
+As further systems are added to
+
+NOTE Confidence: 0.85947716
+
+6dc60542-bd08-405b-840a-4a6a472ec729
+00:01:43.326 --> 00:01:44.598
+the production, network,
+
+NOTE Confidence: 0.85947716
+
+f6e009c3-714e-47f8-852c-af7585b82a3d
+00:01:44.598 --> 00:01:46.590
+systems are operated concurrently
+
+NOTE Confidence: 0.85947716
+
+b9e30b24-5f6b-499f-939f-0af21b27d090
+00:01:46.590 --> 00:01:49.600
+as a series of integrated tests.
+
+NOTE Confidence: 0.85947716
+
+5deb89fa-bfab-4960-b4ce-d3e053e4a081
+00:01:49.600 --> 00:01:51.252
+Unsuccessfully adding all systems
+
+NOTE Confidence: 0.85947716
+
+267cb4b0-8de0-496e-a446-be9d7859bf34
+00:01:51.252 --> 00:01:53.317
+to the production network and
+
+NOTE Confidence: 0.85947716
+
+c669db47-a938-4ebe-a2e9-b52da17c0a9d
+00:01:53.317 --> 00:01:55.130
+completing final integration tests.
+
+NOTE Confidence: 0.85947716
+
+ff35f0e2-427b-48cd-8dc3-72b6d2de15bf
+00:01:55.130 --> 00:01:56.670
+The installation is commissioned
+
+NOTE Confidence: 0.85947716
+
+69693867-2e28-4e57-ade2-b8317a3bf634
+00:01:56.670 --> 00:01:58.595
+and then witnessed by showed
+
+NOTE Confidence: 0.85947716
+
+70fdaec2-fc73-4578-b2cd-52a0b3b9d0fb
+00:01:58.595 --> 00:01:59.800
+professor professionals.
+
+NOTE Confidence: 0.8873935
+
+3541b3ae-1d7d-42b5-95fa-afc0ee008858
+00:02:01.870 --> 00:02:03.034
+Following completion of
+
+NOTE Confidence: 0.8873935
+
+88e07541-0905-47d8-9dbc-2445536882fa
+00:02:03.034 --> 00:02:04.198
+the development project,
+
+NOTE Confidence: 0.8873935
+
+8a7e9caa-ba23-4431-8ba8-c3094f1278b3
+00:02:04.200 --> 00:02:05.684
+systems undergo regular automated
+
+NOTE Confidence: 0.8873935
+
+81c220f2-cbff-469a-80e6-39ba9b281397
+00:02:05.684 --> 00:02:07.910
+tests to ensure that no connected
+
+NOTE Confidence: 0.8873935
+
+7a68f02d-79e6-41e6-8844-8d6a913de562
+00:02:07.968 --> 00:02:09.628
+devices have been compromised.
+
+NOTE Confidence: 0.8892953
+
+9edbfcc2-1657-4ef2-ab60-7022989042fe
+00:02:15.250 --> 00:02:16.805
+When taking initiative to develop
+
+NOTE Confidence: 0.8892953
+
+bf05d371-a31b-4536-817b-38266f539cb9
+00:02:16.805 --> 00:02:18.360
+an Internet of Things business,
+
+NOTE Confidence: 0.8892953
+
+d5c86220-016c-4d7e-b4fb-ef28cc535db1
+00:02:18.360 --> 00:02:19.248
+it is impossible.
+
+NOTE Confidence: 0.8892953
+
+316a339b-a167-4eb2-885d-3abe906d6e14
+00:02:19.248 --> 00:02:21.658
+Is it possible to find yourself in a
+
+NOTE Confidence: 0.8892953
+
+0d55b941-61bf-45d5-8785-d1a408fd4255
+00:02:21.658 --> 00:02:23.296
+situation where the state where the
+
+NOTE Confidence: 0.8892953
+
+42ab1526-7894-45be-aed4-0efd27c22138
+00:02:23.296 --> 00:02:25.949
+state of a thousands of devices need
+
+NOTE Confidence: 0.8892953
+
+c5a8718a-4977-4bb5-91c3-fa6313ae79d9
+00:02:25.949 --> 00:02:27.717
+continual monitoring and management?
+
+NOTE Confidence: 0.8892953
+
+73b7ec25-ed90-4bf3-a19a-40d2b4adbda5
+00:02:27.720 --> 00:02:29.568
+This can be an onerous task.
+
+NOTE Confidence: 0.8892953
+
+369cd6dc-708c-4c82-b067-bda693ebfa06
+00:02:29.570 --> 00:02:31.560
+Particularly there is little standardization
+
+NOTE Confidence: 0.8892953
+
+cccd2da6-2d8d-4737-9b39-830e5fd6d678
+00:02:31.560 --> 00:02:34.080
+in the market for field devices.
+
+NOTE Confidence: 0.8892953
+
+4a3ab3c6-81c2-4315-8851-edaf89afdd20
+00:02:34.080 --> 00:02:36.733
+One way of effectively managing the situation
+
+NOTE Confidence: 0.8892953
+
+ed183b7d-b816-4b54-aab7-c111ebc62dc5
+00:02:36.733 --> 00:02:39.927
+is to develop a standard for automated tests.
+
+NOTE Confidence: 0.8892953
+
+addc0204-64af-4f8a-8730-267db9e079b9
+00:02:39.930 --> 00:02:42.115
+However, no governing body has
+
+NOTE Confidence: 0.8892953
+
+5c84afc0-448c-49ee-aea1-de0cec2f0a7f
+00:02:42.115 --> 00:02:43.426
+stipulated what requirements
+
+NOTE Confidence: 0.8892953
+
+31d777e7-ac50-464d-8cbf-c66a6a98c79e
+00:02:43.426 --> 00:02:45.888
+such a standard might include.
+
+NOTE Confidence: 0.8892953
+
+07b0586f-cad6-445f-aa9a-ff256e62acca
+00:02:45.890 --> 00:02:47.892
+Questions that may need to be addressed
+
+NOTE Confidence: 0.8892953
+
+d2e01370-d02f-4970-aecb-f8e44c27ded2
+00:02:47.892 --> 00:02:49.496
+are can the device automatically
+
+NOTE Confidence: 0.8892953
+
+b9cf9d31-9b82-4394-b9af-a70373d0f673
+00:02:49.496 --> 00:02:51.548
+enroll on the network to reduce
+
+NOTE Confidence: 0.8892953
+
+e5cb4514-734f-4714-8b7c-b8a46589b440
+00:02:51.548 --> 00:02:53.418
+the need for manual activity?
+
+NOTE Confidence: 0.8892953
+
+d9eec6b9-f5c8-4e8f-bc87-e602e5977b2f
+00:02:53.420 --> 00:02:55.352
+Is the device secure so that
+
+NOTE Confidence: 0.8892953
+
+458469bc-0b03-4cfe-b539-4b1b004e954f
+00:02:55.352 --> 00:02:57.087
+the security and operations of
+
+NOTE Confidence: 0.8892953
+
+cf56056e-b518-4c95-a3ec-d060d79ee412
+00:02:57.087 --> 00:02:58.607
+my systems aren't compromised?
+
+NOTE Confidence: 0.8892953
+
+0895eb97-0906-4237-9609-878a54ce514c
+00:02:58.610 --> 00:03:00.938
+Will the device payload be understandable
+
+NOTE Confidence: 0.8892953
+
+2bfac13a-33b1-42d5-91ad-6bdf431057d7
+00:03:00.938 --> 00:03:03.146
+so that my applications will work?
+
