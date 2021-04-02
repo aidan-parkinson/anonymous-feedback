@@ -29,7 +29,7 @@ class Introduction extends Component {
     return (
       <div>
       <p style={parStyle}>
-        Welcome to the Executive Education in Learning IoT online syllabus! This section provides an introduction to the course.<br/><br/>
+        Welcome to an Executive Education in Learning IoT online syllabus! This section provides an introduction to the course.<br/><br/>
         Please proceed to follow the content in order, selecting each blue tab from top-to-bottom before moving onto the next section to the right using the top navigation.
       </p>
         <div style={divStyle}>

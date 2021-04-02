@@ -16,7 +16,6 @@ function App() {
   };
 
   const divStyle = {
-    background: "#F6FAF8",
     padding: "10px",
     width: "100%",
     height: "100%",
