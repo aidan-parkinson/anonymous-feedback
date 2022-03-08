@@ -114,6 +114,10 @@ class SystemsIntegration extends Component {
           <a href = "https://www.youtube.com/watch?v=-aPRhSSv6ZE"  style={linkStyle}>
             Kathy Farrington - Google - The Next Level of IoT
           </a>
+          <br />
+          <a href = "https://github.com/aidan-parkinson/digital-assurance"  style={linkStyle}>
+            Digital assurance framework
+          </a>
         </div>
         <div style={divStyle}>
           <Form/>
